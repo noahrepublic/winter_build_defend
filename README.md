@@ -1,4 +1,13 @@
-# Instructions
+# VS Code Snippets
+To add the new snippets for the module and components for the loader, open the ```./snippet.json``` file
+Then:
+ - Ctrl + Shift + P
+ - Enter "snippets"
+ - Select "Snippets: Configure User Snippets"
+ - Enter and open "lua.json"
+ - Copy paste from snippet.json to lua.json
+
+# Publishing With Rojo
 
 After pulling new version rebuild the file to update it with the following:
 
