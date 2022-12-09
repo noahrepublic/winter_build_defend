@@ -1,0 +1,56 @@
+{
+	"name": "winter_build_defend",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ReplicatedStorage",
+
+			"Assets": {
+				"$className": "Folder",
+				"$path": "assets/ReplicatedStorage"
+			}
+		},
+
+		"ServerScriptService": {
+			"Server": {
+				"$path": "src/ServerScriptService"
+			}
+		},
+
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"Client": {
+					"$path": "src/StarterPlayer"
+				}
+			}
+		},
+
+		"Workspace": {
+			"$className": "Workspace",
+			"$ignoreUnknownInstances": true,
+			"$path": "assets/Workspace",
+
+			"$properties": {
+				"StreamingEnabled": false
+			}
+		},
+
+		"Lighting": {
+			"$properties": {
+				"Ambient": [0, 0, 0],
+				"Brightness": 2,
+				"GlobalShadows": true,
+				"Outlines": false,
+				"Technology": "Voxel"
+			}
+		},
+		"SoundService": {
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
