@@ -1,3 +1,5 @@
+--# selene: allow(unused_variable)
+
 -- @title: Interface.lua
 -- @author: qweekertom
 -- @date: 2022-12-09
