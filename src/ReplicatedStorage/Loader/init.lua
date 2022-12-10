@@ -100,16 +100,6 @@ function loader.WaitFor(name) -- YIELDS!
 	return module
 end
 
-function loader.GetGroup(name)
-	local group = backend.groups[name]
-
-	if not group then
-		--warn("[loader] group not found, maybe you want to create one?")
-	end
-
-	return group
-end
-
 function loader.InitModules(root)
 	if type(root) ~= "table" then
 		root = root:GetChildren()
@@ -130,7 +120,7 @@ function loader.InitModules(root)
 end
 
 function loader.Start()
-	for name, module in pairs(backend.modules) do
+	for _, module in pairs(backend.modules) do
 		if module.Start and type(module.Start) == "function" then
 			task.spawn(module.Start)
 		end
@@ -182,8 +172,8 @@ end
 function loader.TraversePath(path, origin)
 	local t = origin
 
-	for _, path in ipairs(string.split(path, ".")) do
-		t = t[path]
+	for _, child in ipairs(string.split(path, ".")) do
+		t = t[child]
 	end
 
 	return t:Clone()

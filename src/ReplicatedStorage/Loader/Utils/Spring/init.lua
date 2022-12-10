@@ -64,8 +64,6 @@ https://devforum.roblox.com/t/physics-based-spring-module/1287742
 
 -- Services --
 
-local RunService = game:GetService("RunService")
-
 -- Modules --
 
 local Eq = require(script.Eq)

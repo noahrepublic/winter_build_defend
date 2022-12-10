@@ -6,15 +6,10 @@
 
 --]]
 
-local SETTINGS = {
-	DebugMessages = true,
-}
-
 local ComponentManager = {}
 
 ----- Loaded Services -----
 local CollectionService = game:GetService("CollectionService")
-local RunService = game:GetService("RunService")
 
 ----- Private variables -----
 local Children = {
@@ -25,7 +20,7 @@ local Children = {
 local function load(source)
 	for _, component in source do
 		local module_name = component.Name
-		component = require(component)
+		local module = require(component)
 		local tag = component.Tag
 
 		assert(tag ~= nil, ("[ComponentManager] Module '%s' does not have a tag."):format(module_name))
@@ -35,16 +30,16 @@ local function load(source)
 		Children[tag] = babies
 
 		local function component_added(item)
-			local c = component.new(item)
+			local c = module.new(item)
 			babies[item] = c
 		end
 
 		local function component_removed(item)
-			local component = babies[item]
+			local babyModule = babies[item]
 
-			if component ~= nil then
-				if component.Clean ~= nil then
-					component:Clean()
+			if babyModule ~= nil then
+				if babyModule.Clean ~= nil then
+					babyModule:Clean()
 				end
 				babies[item] = nil
 			end
