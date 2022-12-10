@@ -51,6 +51,11 @@
 			"$properties": {
 				"RespectFilteringEnabled": true
 			}
+		},
+		"MaterialService": {
+			"$properties": {
+				"Use2022Materials": false
+			}
 		}
 	}
 }
