@@ -1,6 +1,6 @@
--- Garden Games
--- Server Runner
--- 12/9/2022
+--[[
+    Runs server sided modules on start
+]]
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
