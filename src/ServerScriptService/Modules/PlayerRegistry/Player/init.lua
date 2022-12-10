@@ -8,7 +8,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Variables --
 
-local Data_Template = require(script.Data_Template)
+local Data_Template = require(script.DataTemplate)
 local ProfileService = require(script.ProfileService)
 local Loader = require(ReplicatedStorage.Loader)
 
