@@ -43,7 +43,6 @@ local backend = {
 local Utils = script.Utils
 local Maid = require(Utils.Maid)
 local Signal = require(Utils.Signal)
-local Spring = require(Utils.Spring)
 
 ---- EVENTS ----
 loader.OnComplete = Signal.new()
@@ -151,10 +150,6 @@ end
 -- Credit: @Quenty
 function loader.Signal()
 	return Signal.new()
-end
-
-function loader.Spring(...)
-	return Spring.new(...)
 end
 
 -- Credit: @loleris
