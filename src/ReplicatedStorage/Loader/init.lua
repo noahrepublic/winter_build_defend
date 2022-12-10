@@ -103,7 +103,7 @@ function loader.GetGroup(name)
 	local group = backend.groups[name]
 
 	if not group then
-		--warn("[loader] group not found, maybe you want to create one?")
+		warn("[loader] group not found, maybe you want to create one?")
 	end
 
 	return group
