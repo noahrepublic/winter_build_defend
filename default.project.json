@@ -39,9 +39,14 @@
 		},
 
 		"Lighting": {
+			"$className": "Lighting",
+			"$ignoreUnknownInstances": true,
+			"$path": "assets/Lighting",
+
+
 			"$properties": {
-				"Ambient": [70, 70, 70],
-				"OutdoorAmbient": [70, 70, 70],
+				"Ambient": [0, 0, 0],
+				"OutdoorAmbient": [0, 0, 0],
 				"Brightness": 3,
 				"GlobalShadows": true,
 				"Outlines": false,
