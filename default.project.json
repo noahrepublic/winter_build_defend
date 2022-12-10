@@ -8,7 +8,7 @@
 			"$ignoreUnknownInstances": true,
 			"$path": "src/ReplicatedStorage",
 
-			"Assets": {
+			"Resources": {
 				"$className": "Folder",
 				"$path": "assets/ReplicatedStorage"
 			}
