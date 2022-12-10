@@ -91,8 +91,6 @@ credit: @foshes
 
 --]]
 
-local SETTINGS = {}
-
 -- Module table:
 local FSM = {}
 FSM.__index = FSM

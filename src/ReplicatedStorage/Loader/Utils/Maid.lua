@@ -59,9 +59,7 @@ function Maid:__newindex(Index, NewTask)
 	if OldTask then
 		if type(OldTask) == "function" then
 			OldTask()
-		elseif typeof(OldTask) == "RBXScriptConnection" then
-			OldTask:disconnect()
-		elseif OldTask.disconnect then
+		elseif typeof(OldTask) == "RBXScriptConnection" or OldTask.disconnect then
 			OldTask:disconnect()
 		elseif OldTask.Destroy then
 			OldTask:Destroy()
@@ -102,10 +100,8 @@ function Maid:DoCleaning()
 			Task:disconnect()
 		elseif Task.Destroy then
 			Task:Destroy()
-		elseif Task.destroy then
+		elseif Task.destroy or Task.disconnect then
 			Task:destroy()
-		elseif Task.disconnect then -- for pseudo RBXScriptConnection
-			Task:disconnect()
 		end
 		Index, Task = next(Tasks)
 	end

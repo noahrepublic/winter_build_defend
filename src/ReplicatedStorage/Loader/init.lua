@@ -43,7 +43,6 @@ local backend = {
 local Utils = script.Utils
 local Maid = require(Utils.Maid)
 local Signal = require(Utils.Signal)
-local Spring = require(Utils.Spring)
 
 ---- EVENTS ----
 loader.OnComplete = Signal.new()
@@ -104,7 +103,7 @@ function loader.GetGroup(name)
 	local group = backend.groups[name]
 
 	if not group then
-		warn("[loader] group not found, maybe you want to create one?")
+		--warn("[loader] group not found, maybe you want to create one?")
 	end
 
 	return group
@@ -130,7 +129,7 @@ function loader.InitModules(root)
 end
 
 function loader.Start()
-	for name, module in pairs(backend.modules) do
+	for _, module in pairs(backend.modules) do
 		if module.Start and type(module.Start) == "function" then
 			task.spawn(module.Start)
 		end
@@ -163,10 +162,6 @@ function loader.Signal()
 	return Signal.new()
 end
 
-function loader.Spring(...)
-	return Spring.new(...)
-end
-
 -- Credit: @loleris
 function loader.NewInstance(class, properties)
 	local instance = Instance.new(class)
@@ -182,8 +177,8 @@ end
 function loader.TraversePath(path, origin)
 	local t = origin
 
-	for _, path in ipairs(string.split(path, ".")) do
-		t = t[path]
+	for _, child in ipairs(string.split(path, ".")) do
+		t = t[child]
 	end
 
 	return t:Clone()

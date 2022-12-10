@@ -96,7 +96,7 @@ MoneyLib.RebornPrice = function(RB)
 		limRB = 5000
 	end
 
-	local overRB = RB - limRB
+	--local overRB = RB - limRB
 
 	-- 0.23 per 1000 lives
 	local low = (math.floor(limRB / (1000 / n)) * (0.24 / n))
@@ -128,7 +128,7 @@ MoneyLib.LifeSkips = function(RB, Money)
 end
 
 function MoneyLib.HandleLife(Life)
-	local Suffix
+	local Suffix = "th"
 	local LastDigit = tonumber(string.sub(tostring(Life), string.len(tostring(Life))))
 	if Life <= 20 and Life >= 10 then
 		Suffix = "th"
@@ -138,8 +138,6 @@ function MoneyLib.HandleLife(Life)
 		Suffix = "nd"
 	elseif LastDigit == 3 then
 		Suffix = "rd"
-	else
-		Suffix = "th"
 	end
 	return tostring(Life) .. Suffix
 end
@@ -174,7 +172,7 @@ local function shorten(Input)
 	Input = math.abs(Input)
 
 	local Paired = false
-	for i, v in pairs(MoneyLib.Suffixes) do
+	for i, _ in pairs(MoneyLib.Suffixes) do
 		if not (Input >= 10 ^ (3 * i)) then
 			Input = Input / 10 ^ (3 * (i - 1))
 			local isComplex = (string.find(tostring(Input), ".") and string.sub(tostring(Input), 4, 4) ~= ".")
