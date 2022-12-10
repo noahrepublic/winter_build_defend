@@ -39,13 +39,16 @@
 		},
 
 		"Lighting": {
+			"$path": "assets/Lighting",
 			"$properties": {
-				"Ambient": [0, 0, 0],
-				"Brightness": 2,
+				"Ambient": [70, 70, 70],
+				"OutdoorAmbient": [70, 70, 70],
+				"Brightness": 3,
 				"GlobalShadows": true,
 				"Outlines": false,
-				"Technology": "Voxel"
+				"Technology": "Future"
 			}
+			
 		},
 		"SoundService": {
 			"$properties": {
