@@ -21,7 +21,7 @@ local function load(source)
 	for _, component in source do
 		local module_name = component.Name
 		local module = require(component)
-		local tag = component.Tag
+		local tag = module.Tag
 
 		assert(tag ~= nil, ("[ComponentManager] Module '%s' does not have a tag."):format(module_name))
 		assert(Children[tag] == nil, ("[ComponentManager] Overlapping tag: '%s'"):format(tag))
