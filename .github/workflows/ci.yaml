@@ -20,7 +20,7 @@ jobs:
 
       - name: Lint Luau
         run: |
-          selene src
+          selene src --allow-warnings
   
 
   # run-in-roblox isn't very reliable
