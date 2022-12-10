@@ -39,7 +39,6 @@
 		},
 
 		"Lighting": {
-			"$path": "assets/Lighting",
 			"$properties": {
 				"Ambient": [70, 70, 70],
 				"OutdoorAmbient": [70, 70, 70],
