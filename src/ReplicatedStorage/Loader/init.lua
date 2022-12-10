@@ -99,6 +99,16 @@ function loader.WaitFor(name) -- YIELDS!
 	return module
 end
 
+function loader.GetGroup(name)
+	local group = backend.groups[name]
+
+	if not group then
+		warn("[loader] group not found, maybe you want to create one?")
+	end
+
+	return group
+end
+
 function loader.InitModules(root)
 	if type(root) ~= "table" then
 		root = root:GetChildren()
