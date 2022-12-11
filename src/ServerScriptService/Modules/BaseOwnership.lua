@@ -12,6 +12,7 @@
 
 local CollectionService = game:GetService("CollectionService")
 local Players = game:GetService("Players")
+local ServerStorage = game:GetService("ServerStorage")
 --local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
@@ -32,9 +33,20 @@ local ownedPlots = {}
 --> Private Functions
 
 --> Module Functions
+function initializePlots()
+	local plotBase = ServerStorage.Resources.BasePlot
+	for _, plotLocation in workspace.Plots:GetChildren() do
+		local clone = plotBase:Clone()
+		clone:PivotTo(plotLocation.CFrame)
+		clone.Parent = workspace.Plots
+		plotLocation:Destroy()
+	end
+end
 
 --> Loader Methods
 function module.Start()
+	initializePlots()
+
 	Players.PlayerAdded:Connect(function(player)
 		--local player_class = PlayerRegistry.GetPlayer(player)
 

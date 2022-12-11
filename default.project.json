@@ -20,6 +20,13 @@
 			}
 		},
 
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"Resources": {
+				"$path": "assets/ServerStorage"
+			}
+		},
+
 		"StarterPlayer": {
 			"StarterPlayerScripts": {
 				"Client": {
