@@ -13,8 +13,8 @@ local loader = require(ReplicatedStorage.Loader)
 --> Module Definition
 local module = {}
 local SETTINGS = {
-	MaxBuilds = 10,
-	HeightLimit = 100,
+	MAX_BUILDS = 10,
+	HEIGHT_LIMIT = 100,
 }
 
 --> Variables
@@ -35,23 +35,24 @@ end
 
 local function buildRequest(player: Player, buildData: table)
 	local buildType = buildData.Type
-	local position = buildData.Position
+	local location = buildData.Location
 	local rotation = buildData.Rotation
 
 	local base = game.Workspace:FindFirstChild(player.Name)
 
-	if #base.Builds:GetChildren() >= SETTINGS.MaxBuilds then
+	if #base.Builds:GetChildren() >= SETTINGS.MAX_BUILDS then
 		return
 	end
 
-	if position.Y >= SETTINGS.HeightLimit then
+	if location.Y >= SETTINGS.HEIGHT_LIMIT then
 		return
 	end
 
 	local build = getBuildFromName(buildType)
 	if build then
 		local newBuild = build:Clone()
-		newBuild.CFrame = CFrame.new(position) * CFrame.Angles(0, rotation, 0)
+		newBuild.CFrame = location * CFrame.Angles(0, rotation, 0)
+		newBuild.Anchored = true
 		newBuild.Parent = base.Builds
 		CollectionService:AddTag(newBuild, "Build")
 	end
