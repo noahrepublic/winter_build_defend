@@ -39,6 +39,8 @@ function Base:_init()
 
 	-- Claim ownership
 
+	base.Name = player.Name
+
 	local baseIcon = base.PlayerIcon.BillboardGui.Icon
 	local playerBust =
 		Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.AvatarBust, Enum.ThumbnailSize.Size420x420)
@@ -52,6 +54,7 @@ end
 function Base:Clean()
 	local base = self.Base
 
+	base.Name = "Plot"
 	local baseIcon = base.PlayerIcon.BillboardGui.Icon
 	baseIcon.Image = "rbxassetid://9569335969" -- Default
 
