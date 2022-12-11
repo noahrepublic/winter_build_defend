@@ -1,3 +1,4 @@
+--# selene: allow(undefined_variable)
 --[[
 	Constructs a new computed state object, which follows the value of another
 	state object using a spring simulation.
@@ -13,8 +14,8 @@ local updateAll = require(Package.Dependencies.updateAll)
 
 local class = {}
 
-local CLASS_METATABLE = {__index = class}
-local WEAK_KEYS_METATABLE = {__mode = "k"}
+local CLASS_METATABLE = { __index = class }
+local WEAK_KEYS_METATABLE = { __mode = "k" }
 
 local ENABLE_PARAM_SETTERS = false
 
@@ -70,7 +71,6 @@ function class:update()
 
 		SpringScheduler.remove(self)
 		return true
-
 	elseif numSprings == 0 then
 		-- if the type hasn't changed, but isn't animatable, just change the
 		-- current value
@@ -85,7 +85,6 @@ function class:update()
 end
 
 if ENABLE_PARAM_SETTERS then
-
 	--[[
 		Changes the damping ratio of this Spring.
 	]]
@@ -170,7 +169,6 @@ if ENABLE_PARAM_SETTERS then
 
 		SpringScheduler.add(self)
 	end
-
 end
 
 local function Spring(goalState: Types.State<Types.Animatable>, speed: number?, damping: number?)
@@ -190,7 +188,7 @@ local function Spring(goalState: Types.State<Types.Animatable>, speed: number?, 
 	local self = setmetatable({
 		type = "State",
 		kind = "Spring",
-		dependencySet = {[goalState] = true},
+		dependencySet = { [goalState] = true },
 		-- if we held strong references to the dependents, then they wouldn't be
 		-- able to get garbage collected when they fall out of scope
 		dependentSet = setmetatable({}, WEAK_KEYS_METATABLE),
@@ -205,7 +203,7 @@ local function Spring(goalState: Types.State<Types.Animatable>, speed: number?, 
 
 		_springPositions = nil,
 		_springGoals = nil,
-		_springVelocities = nil
+		_springVelocities = nil,
 	}, CLASS_METATABLE)
 
 	initDependency(self)

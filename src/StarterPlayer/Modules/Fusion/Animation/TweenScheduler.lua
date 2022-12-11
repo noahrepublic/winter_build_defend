@@ -1,3 +1,4 @@
+--# selene: allow(undefined_variable)
 --[[
 	Manages batch updating of tween objects.
 ]]
@@ -18,10 +19,10 @@ type Tween = {
 
 	_tweenStartTime: number,
 	_tweenDuration: number,
-	_tweenInfo: TweenInfo
+	_tweenInfo: TweenInfo,
 }
 
-local WEAK_KEYS_METATABLE = {__mode = "k"}
+local WEAK_KEYS_METATABLE = { __mode = "k" }
 
 -- all the tweens currently being updated
 local allTweens: Types.Set<Tween> = setmetatable({}, WEAK_KEYS_METATABLE)
@@ -65,10 +66,6 @@ local function updateAllTweens()
 	end
 end
 
-RunService:BindToRenderStep(
-	"__FusionTweenScheduler",
-	Enum.RenderPriority.First.Value,
-	updateAllTweens
-)
+RunService:BindToRenderStep("__FusionTweenScheduler", Enum.RenderPriority.First.Value, updateAllTweens)
 
 return TweenScheduler

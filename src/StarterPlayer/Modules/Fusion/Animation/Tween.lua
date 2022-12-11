@@ -1,3 +1,4 @@
+--# selene: allow(undefined_variable)
 --[[
 	Constructs a new computed state object, which follows the value of another
 	state object using a tween.
@@ -10,8 +11,8 @@ local initDependency = require(Package.Dependencies.initDependency)
 
 local class = {}
 
-local CLASS_METATABLE = {__index = class}
-local WEAK_KEYS_METATABLE = {__mode = "k"}
+local CLASS_METATABLE = { __index = class }
+local WEAK_KEYS_METATABLE = { __mode = "k" }
 
 local ENABLE_PARAM_SETTERS = false
 
@@ -50,14 +51,12 @@ function class:update()
 end
 
 if ENABLE_PARAM_SETTERS then
-
 	--[[
 		Specifies a new TweenInfo to use when the goal state changes in the future.
 	]]
 	function class:setTweenInfo(newTweenInfo: TweenInfo)
 		self._tweenInfo = newTweenInfo
 	end
-
 end
 
 local function Tween(goalState: Types.State<Types.Animatable>, tweenInfo: TweenInfo?)
@@ -66,7 +65,7 @@ local function Tween(goalState: Types.State<Types.Animatable>, tweenInfo: TweenI
 	local self = setmetatable({
 		type = "State",
 		kind = "Tween",
-		dependencySet = {[goalState] = true},
+		dependencySet = { [goalState] = true },
 		-- if we held strong references to the dependents, then they wouldn't be
 		-- able to get garbage collected when they fall out of scope
 		dependentSet = setmetatable({}, WEAK_KEYS_METATABLE),
@@ -81,7 +80,7 @@ local function Tween(goalState: Types.State<Types.Animatable>, tweenInfo: TweenI
 		-- isn't affected by :setTweenInfo() until next change
 		_currentTweenInfo = tweenInfo,
 		_currentTweenDuration = 0,
-		_currentTweenStartTime = 0
+		_currentTweenStartTime = 0,
 	}, CLASS_METATABLE)
 
 	initDependency(self)

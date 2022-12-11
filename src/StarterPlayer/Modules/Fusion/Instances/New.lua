@@ -1,3 +1,4 @@
+--# selene: allow(unused_variable)
 --[[
 	Constructs and returns a new instance, with options for setting properties,
 	event handlers and other attributes on the instance right away.
@@ -13,24 +14,24 @@ local Compat = require(Package.State.Compat)
 local logError = require(Package.Logging.logError)
 local logWarn = require(Package.Logging.logWarn)
 
-local WEAK_KEYS_METATABLE = {__mode = "k"}
+local WEAK_KEYS_METATABLE = { __mode = "k" }
 
 local ENABLE_EXPERIMENTAL_GC_MODE = false
 
 -- NOTE: this needs to be weakly held so gc isn't inhibited
-local overrideParents: {[Instance]: Types.StateOrValue<Instance>} = setmetatable({}, WEAK_KEYS_METATABLE)
+local overrideParents: { [Instance]: Types.StateOrValue<Instance> } = setmetatable({}, WEAK_KEYS_METATABLE)
 
 local function New(className: string)
-	return function(propertyTable: {[string | Types.Symbol]: any})
+	return function(propertyTable: { [string | Types.Symbol]: any })
 		-- things to clean up when the instance is destroyed or gc'd
 		local cleanupTasks = {}
 		-- event handlers to connect
-		local toConnect: {[RBXScriptSignal]: () -> ()} = {}
+		local toConnect: { [RBXScriptSignal]: () -> () } = {}
 
 		--[[
 			STEP 1: Create a reference to a new instance
 		]]
-		local refMetatable = {__mode = ""}
+		local refMetatable = { __mode = "" }
 		local ref = setmetatable({}, refMetatable)
 		local conn
 
@@ -65,7 +66,6 @@ local function New(className: string)
 				STEP 2.1: Property (string) keys
 			]]
 			elseif typeof(key) == "string" then
-
 				-- Properties bound to state
 				if typeof(value) == "table" and value.type == "State" then
 					local assignOK = pcall(function()
@@ -76,7 +76,8 @@ local function New(className: string)
 						logError("cannotAssignProperty", nil, className, key)
 					end
 
-					table.insert(cleanupTasks,
+					table.insert(
+						cleanupTasks,
 						Compat(value):onChange(function()
 							if ref.instance == nil then
 								if ENABLE_EXPERIMENTAL_GC_MODE then
@@ -107,7 +108,6 @@ local function New(className: string)
 				STEP 2.2: Symbol keys
 			]]
 			elseif typeof(key) == "table" and key.type == "Symbol" then
-
 				-- Event handler
 				if key.name == "OnEvent" then
 					local event
@@ -115,8 +115,7 @@ local function New(className: string)
 					if
 						not pcall(function()
 							event = ref.instance[key.key]
-						end) or
-						typeof(event) ~= "RBXScriptSignal"
+						end) or typeof(event) ~= "RBXScriptSignal"
 					then
 						logError("cannotConnectChange", nil, className, key.key)
 					end
@@ -127,11 +126,9 @@ local function New(className: string)
 				elseif key.name == "OnChange" then
 					local event
 
-					if
-						not pcall(function()
-							event = ref.instance:GetPropertyChangedSignal(key.key)
-						end)
-					then
+					if not pcall(function()
+						event = ref.instance:GetPropertyChangedSignal(key.key)
+					end) then
 						logError("cannotConnectChange", nil, className, key.key)
 					end
 
@@ -202,7 +199,6 @@ local function New(className: string)
 						else
 							prevChildren[child] = nil
 						end
-
 					elseif childType == "table" then
 						-- could either be an array or state object
 
@@ -275,7 +271,8 @@ local function New(className: string)
 					logError("cannotAssignProperty", nil, className, "Parent")
 				end
 
-				table.insert(cleanupTasks,
+				table.insert(
+					cleanupTasks,
 					Compat(parent):onChange(function()
 						if ref.instance == nil then
 							if ENABLE_EXPERIMENTAL_GC_MODE then
@@ -290,7 +287,6 @@ local function New(className: string)
 						Scheduler.enqueueProperty(ref.instance, "Parent", parent:get(false))
 					end)
 				)
-
 			else
 				-- constant parent assignment
 				local assignOK = pcall(function()
@@ -327,7 +323,7 @@ local function New(className: string)
 					if game:IsAncestorOf(ref.instance) then
 						setmetatable(ref, {})
 					else
-						setmetatable(ref, {__mode = "v"})
+						setmetatable(ref, { __mode = "v" })
 					end
 				end
 
