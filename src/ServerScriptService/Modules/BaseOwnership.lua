@@ -27,7 +27,7 @@ local InitializedPlayers = {}
 
 --> Variables
 
-local plotFolder = game.Workspace.Plots:GetChildren()
+local plotFolder
 
 local ownedPlots = {}
 
@@ -40,6 +40,7 @@ function initializePlots()
 		plotLocation:Destroy()
 		clone.Parent = workspace.Plots
 	end
+	plotFolder = game.Workspace.Plots:GetChildren()
 end
 
 function playerAdded(player: Player)
