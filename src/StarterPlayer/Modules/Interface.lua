@@ -9,7 +9,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
 
-local Fusion = loader.Load("Fusion")
+local Fusion = loader.Get("Fusion")
 
 --> Module Definition
 local module = {}
