@@ -3,6 +3,8 @@
 -- @date: 2022-12-11
 
 --> Services
+
+local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
@@ -13,6 +15,10 @@ local module = {}
 local SETTINGS = {}
 
 --> Variables
+
+local Remotes = ReplicatedStorage.Remotes
+
+local PlacementEvent = Remotes.Placement
 
 --> Private Functions
 
