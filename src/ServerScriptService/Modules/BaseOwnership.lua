@@ -20,7 +20,7 @@ local Players = game:GetService("Players")
 --local PlayerRegistry = loader.Get("PlayerRegistry")
 
 --> Module Definition
-local module = {}
+local BaseOwnership = {}
 --local SETTINGS = {}
 
 --> Variables
@@ -34,7 +34,7 @@ local ownedPlots = {}
 --> Module Functions
 
 --> Loader Methods
-function module.Start()
+function BaseOwnership.Start()
 	Players.PlayerAdded:Connect(function(player)
 		--local player_class = PlayerRegistry.GetPlayer(player)
 
@@ -54,4 +54,4 @@ function module.Start()
 	end)
 end
 
-return module
+return BaseOwnership

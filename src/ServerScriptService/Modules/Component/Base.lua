@@ -47,6 +47,10 @@ function Base:_init()
 
 	baseIcon.Image = playerBust
 
+	local buildFolder = Instance.new("Folder")
+	buildFolder.Name = "Builds"
+	buildFolder.Parent = base
+
 	player.RespawnLocation = base.Spawn
 	player:LoadCharacter()
 end
@@ -57,6 +61,8 @@ function Base:Clean()
 	base.Name = "Plot"
 	local baseIcon = base.PlayerIcon.BillboardGui.Icon
 	baseIcon.Image = "rbxassetid://9569335969" -- Default
+
+	base.Builds:Destroy()
 
 	base:SetAttribute("Owner", nil)
 end
