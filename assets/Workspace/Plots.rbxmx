@@ -2,14 +2,14 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Folder" referent="RBXED77031FE3F34018BD509CF419F99B38">
+	<Item class="Folder" referent="RBX53257B140BA44D31A23405AB28443B94">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Plots</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Model" referent="RBX42A2CCE18FD049FF93A99639D488F371">
+		<Item class="Model" referent="RBX4B014E5FFF924BE092FC24710D740D68">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -56,7 +56,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX8848BFB435FB450E8C389576E0AEA222">
+			<Item class="Part" referent="RBX80EFD4B7C44541DE9F59A52B95233A02">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -88,7 +88,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -102,7 +102,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -150,7 +150,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX2BDB64E818A8442E871E37109DA4B71C">
+				<Item class="Texture" referent="RBX257E83316D3B4F2DB8AFF60D9E3BF473">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -167,19 +167,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX52E0A6C76D424CF891D47E4B24E967DD">
+			<Item class="Folder" referent="RBX4E68721CB6F34541AE06AB4B21F0EB0F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX5ECAD90803114A57B14334F45636D3EC">
+				<Item class="Model" referent="RBXA0DBEFF468FD45B9871EAFA05BFF6787">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -206,7 +206,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXD644CF654C6041218D3C6607AFF11084</Ref>
+						<Ref name="PrimaryPart">RBXAC69B695C70E4603B3907FBF8C22E1B2</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -226,7 +226,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3A95D5CE09F54D82AB4067798F6CBFBB">
+					<Item class="Model" referent="RBX0A6E3A713FCF4CE9B9B6AAC383CA15BA">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -273,7 +273,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX5CD1D872E47847889DBF76646A61ED02">
+						<Item class="UnionOperation" referent="RBX1B70F727D0584D239F77C9A3A59107F0">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -383,7 +383,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX10512708E1394EF3B906AC5E20C7AC1E">
+						<Item class="UnionOperation" referent="RBX8888CA9E2F3C486BB89CDEBEB0936625">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -494,7 +494,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX8296E84D3DC94AC380A31C6B1F6B0509">
+					<Item class="Part" referent="RBX211B1996194D4A0DA71A2C719467B9CD">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -589,7 +589,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXD644CF654C6041218D3C6607AFF11084">
+					<Item class="Part" referent="RBXAC69B695C70E4603B3907FBF8C22E1B2">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -685,7 +685,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX6C86992464964C5ABA513CBD69C29BB5">
+				<Item class="Model" referent="RBX2F1717B5670445D4AA2BF575198616CB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -712,7 +712,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX821B74EEFB354BB5BC3353E7C3B6681B</Ref>
+						<Ref name="PrimaryPart">RBX1E74EAD3569B4DCCB3AE792F3132CE21</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -732,7 +732,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3CB9924232084D59B19D586EA56842D7">
+					<Item class="Model" referent="RBXC2FADCFDA6A2428B9B94B74A5EDF68BE">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -779,7 +779,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX8928A6E8E6E445CA90296AC98DCDD5EC">
+						<Item class="UnionOperation" referent="RBX6C27D731C861443AA9913D9A1F11C42D">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -889,7 +889,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX0EA6AD401E644605A5BA4A8430BD9383">
+						<Item class="UnionOperation" referent="RBX2F97E37392474A139B6AB647A3099580">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -1000,7 +1000,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXBF35293738814AB08611D358A9835558">
+					<Item class="Part" referent="RBX656DEAB81981490DB25AB0517E395A20">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1095,7 +1095,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX821B74EEFB354BB5BC3353E7C3B6681B">
+					<Item class="Part" referent="RBX1E74EAD3569B4DCCB3AE792F3132CE21">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1191,7 +1191,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXEBE6513E7C2845E6BDB485393783B174">
+				<Item class="Model" referent="RBXB7BD70775A4F4C3F976254243ABB3ED7">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -1218,7 +1218,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX9A558193C47E4920A8C74D275C98C5F0</Ref>
+						<Ref name="PrimaryPart">RBX0615FF26D5B949258E1585740081EEB0</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -1238,7 +1238,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXC6B8E4A5010A4CDDA65B6DBA522FA861">
+					<Item class="Model" referent="RBXAB574AAB74AC4268864A3D7C14AE11A5">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -1285,7 +1285,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX68976E71F1924543A8F823FB12521348">
+						<Item class="UnionOperation" referent="RBX5B5B171BEBA64C42AB9E48009433AF5E">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -1395,7 +1395,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX2229E2FE72E4404A940473E2F60169CE">
+						<Item class="UnionOperation" referent="RBXBD64F2CE36824314B763117E9284D8EE">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -1506,7 +1506,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXE6EA1AFB318543468267177207378854">
+					<Item class="Part" referent="RBX5F86D53D1B034B42B070AA98FE1AA486">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1601,7 +1601,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX9A558193C47E4920A8C74D275C98C5F0">
+					<Item class="Part" referent="RBX0615FF26D5B949258E1585740081EEB0">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1697,7 +1697,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXD5A7823C518441BA8F1E778FE1A4BE27">
+				<Item class="Model" referent="RBX3BEE046AC3834AB880F9A7BC761C610C">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -1724,7 +1724,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX37EBE90086884CD2B0297607C92ABEEE</Ref>
+						<Ref name="PrimaryPart">RBXD3A46EDFCDF14E8AAAD826F50E88EBAE</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -1744,7 +1744,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX1F70E3C637A248CDBCF71D1145169F29">
+					<Item class="Model" referent="RBX5986D73309BD4B9BBE56BC90BFA20493">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -1791,7 +1791,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX5635DEDE14C04F478C4AA3694114ACD6">
+						<Item class="UnionOperation" referent="RBXBD9C22D40A4C47779EAFD4E2B8DBC062">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -1901,7 +1901,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX9D226316192040199BC9247949D68849">
+						<Item class="UnionOperation" referent="RBX5F329A4DC51C40B8838CE3A59B9ED9E1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -2012,7 +2012,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX6EC6F2594F494E5A88D78D5FCED5A949">
+					<Item class="Part" referent="RBX29607A745E5E4C17B04563F811CDB949">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2107,7 +2107,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX37EBE90086884CD2B0297607C92ABEEE">
+					<Item class="Part" referent="RBXD3A46EDFCDF14E8AAAD826F50E88EBAE">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2203,7 +2203,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX12394FDE1B7F4AC8AC4E3E8712A30530">
+				<Item class="Model" referent="RBXC77B7A6E5C01468CA8838C8279D2F0AE">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -2230,7 +2230,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXE85258F4C596458ABA17E0F537CA4162</Ref>
+						<Ref name="PrimaryPart">RBX402FACE7D4A04931B6DB67604ADA017F</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -2250,7 +2250,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX4F2FA9689A804657B18FC661ED6F288A">
+					<Item class="Model" referent="RBX25D86219A9CC4180B679FDEDB0252FC5">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -2297,7 +2297,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXAFE7DB084CEF4F6B8706FA117A641C4F">
+						<Item class="UnionOperation" referent="RBX6F417B26E44944679C9B6B340A243ADA">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -2407,7 +2407,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX7BAD2ED174E443A299DDCE2523662985">
+						<Item class="UnionOperation" referent="RBX37737A7D7552426398C3CA34AAAA4BA6">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -2518,7 +2518,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXB1FCECB6AC0C4AC8B15ACB2E7875D48F">
+					<Item class="Part" referent="RBXBD99BBAE686D4201840D43808A81E0D9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2613,7 +2613,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXE85258F4C596458ABA17E0F537CA4162">
+					<Item class="Part" referent="RBX402FACE7D4A04931B6DB67604ADA017F">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2709,7 +2709,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX3C65DD52406E414CA5ED957AEFD93C39">
+				<Item class="Model" referent="RBX3CBA22C57CB5485E99954DB30B79CD39">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -2736,7 +2736,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXB084E3E2DB7D462D9C0CD096DD958118</Ref>
+						<Ref name="PrimaryPart">RBXD1C77C17BB9D4A809D106C946C7199ED</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -2756,7 +2756,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX961BF143DDC8419EA4BE7A3F3107BEF8">
+					<Item class="Model" referent="RBX8E796848721A474DAAC86C1AE876EF25">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -2803,7 +2803,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX4ADFF3DF24F643E6B0BCF7469A304EC9">
+						<Item class="UnionOperation" referent="RBX8E43BFD6086144B7AF6D8B88E2F57223">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -2913,7 +2913,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX86BB702D15034152A61C557714400C21">
+						<Item class="UnionOperation" referent="RBXC981EFB28622437A978158F4AB2C52ED">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -3024,7 +3024,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX57B400E1802041AA85EC315DBC03C1B8">
+					<Item class="Part" referent="RBX5B65C1DDA0D4411F85C1FC2BE82E2F6E">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3119,7 +3119,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXB084E3E2DB7D462D9C0CD096DD958118">
+					<Item class="Part" referent="RBXD1C77C17BB9D4A809D106C946C7199ED">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3216,7 +3216,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX3C3469C99B414C83A89FEE8AEA24E025">
+			<Item class="Part" referent="RBX7903C1D0CEB140B0A600F8FA4D884781">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3310,7 +3310,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBXA2C5C069C11B465D992EF2B18E6956F7">
+				<Item class="BillboardGui" referent="RBXE3C694CC12EE475AB3DEE981E9ABDA5D">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -3368,7 +3368,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBXF326967D99414E94A7BE9A9814DB7E95">
+					<Item class="ImageLabel" referent="RBXB8DC6580D8294564A1929D72486F9A52">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -3464,7 +3464,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX8F1CFD45051A44178B1E9C96E7A5AA5E">
+			<Item class="SpawnLocation" referent="RBXDF08BEDE6EAD4FECA52A6290BA871FB8">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -3565,7 +3565,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX21F74D740C0E44F1A8E964BABA48925B">
+		<Item class="Model" referent="RBX79EA6C601CF043D6921CDC6BDF900651">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -3612,7 +3612,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX8525627C4BB2439E94B7C292860C93C4">
+			<Item class="Part" referent="RBX6AC0A94B1DAE43168D23FAC7765798B6">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3644,7 +3644,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -3658,7 +3658,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -3706,7 +3706,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX27EC0B7CB6D04CAEBCE95C7B67DAA0B8">
+				<Item class="Texture" referent="RBXAA5EFBA9C6EB46F2B9EB5BFB94DC95E8">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -3723,19 +3723,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX7948750EF07F4003B0E83A56E5BCF8F9">
+			<Item class="Folder" referent="RBX08439DBAC9394973888BC109DAFDF07E">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBXE95602D52E8C4B37B9574C1E2C72CCE4">
+				<Item class="Model" referent="RBXB72F87047B9C45D7929BBC59A3C6567B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -3762,7 +3762,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXF30E0FE5DA234506AD6070E7CF477886</Ref>
+						<Ref name="PrimaryPart">RBXCC3B4F90FAE5431EA754118DE1812646</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -3782,7 +3782,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX1E021AB33ACE477DBE4FB8AA5EA9A526">
+					<Item class="Model" referent="RBXCD21351A8EDB472C9C64136EAADC3D4D">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -3829,7 +3829,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXBECF0B04CFAE4DF1BFCBBACFBFD067C8">
+						<Item class="UnionOperation" referent="RBX89E2E351FE1A439AB11E2169E4D2127E">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -3939,7 +3939,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX0633FA7A444446A4A827B4E5745DD8EB">
+						<Item class="UnionOperation" referent="RBXFC4DD58BF4BE4585B68224CA690FBA89">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -4050,7 +4050,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXF9A8F70498D84472B2970BE9AF6F462F">
+					<Item class="Part" referent="RBX0212DF3872CF47D1946FC9E1269E74C0">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -4145,7 +4145,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXF30E0FE5DA234506AD6070E7CF477886">
+					<Item class="Part" referent="RBXCC3B4F90FAE5431EA754118DE1812646">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -4241,7 +4241,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXF21CD3765CDC494AA2AE0DCDB563CC5A">
+				<Item class="Model" referent="RBX09EA92ABF7C9400793C265662E96BF8B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -4268,7 +4268,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX043103E2D23D4642AEB7120A6909A283</Ref>
+						<Ref name="PrimaryPart">RBXE3C5926EBDF44DE0A5292E1686DC02F9</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -4288,7 +4288,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX7D989C4545734EE6BDACD9088B037C10">
+					<Item class="Model" referent="RBX4F134E46DDBF4F24B99705EAC9749534">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -4335,7 +4335,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX56AA00E50C514AD1AE8C7B6B0E1FA4A1">
+						<Item class="UnionOperation" referent="RBXD46A35925E694CDE80D71702D4D19A8B">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -4445,7 +4445,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX92FBA63ABE6B44F4A04D90A237014618">
+						<Item class="UnionOperation" referent="RBXCF3B76412BD64330AAB147967B7F2D6F">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -4556,7 +4556,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX62385536778548DDBD110F533C797B71">
+					<Item class="Part" referent="RBX8EAAE0E95F5D48BAB015BCED68E7651D">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -4651,7 +4651,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX043103E2D23D4642AEB7120A6909A283">
+					<Item class="Part" referent="RBXE3C5926EBDF44DE0A5292E1686DC02F9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -4747,7 +4747,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXBB508F2BA0B644F29764C589082B288A">
+				<Item class="Model" referent="RBXC09A8687CA174E89BFBAD646CF10BBC7">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -4774,7 +4774,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXC34ABB6DEE9942C9956E2EF993FB0BC8</Ref>
+						<Ref name="PrimaryPart">RBXB6949B5BD3044268A8262CF7C2DB6033</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -4794,7 +4794,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX0E3FF2C805664EC3BC473BBCE464277D">
+					<Item class="Model" referent="RBXAD40FB3E74164C05BCC1636C516AEE8A">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -4841,7 +4841,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXAF0D12A3B7EA49A6BE3BA63F895FC6A3">
+						<Item class="UnionOperation" referent="RBX8A6010B555C740819A1FA2EBC4858A26">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -4951,7 +4951,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXCF76528BF8574244A0A393DC241D52AA">
+						<Item class="UnionOperation" referent="RBX6E62E0D7297445D4BAC85DD9BD1A5A27">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -5062,7 +5062,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX3385502DB3B34A12A5BBE3B459FE9F95">
+					<Item class="Part" referent="RBXF18EFCC4DEF449C7AFFB98BD33CBE63A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -5157,7 +5157,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXC34ABB6DEE9942C9956E2EF993FB0BC8">
+					<Item class="Part" referent="RBXB6949B5BD3044268A8262CF7C2DB6033">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -5253,7 +5253,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX41C22D3871EC439688DD478707031782">
+				<Item class="Model" referent="RBX05663C4604024F93A5FC5B400BFC0EB2">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -5280,7 +5280,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXA3C7FB3E011449019C5DBF67494CC305</Ref>
+						<Ref name="PrimaryPart">RBXEFA859F6CC194DE38BD1CD0B4704F73F</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -5300,7 +5300,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX49393B6BB2E147EF837665DFA7EF8224">
+					<Item class="Model" referent="RBX94B674DB56484628B03D17033A68AF9E">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -5347,7 +5347,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXA401F1CDDCA74503AD16A9A025F0AF69">
+						<Item class="UnionOperation" referent="RBX31BB5B37EED94F7D934AAA925CA74387">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -5457,7 +5457,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX2A544631D61042B7A922AF351721F0D3">
+						<Item class="UnionOperation" referent="RBX1945C1FFD2E54CA985190A148CA269B4">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -5568,7 +5568,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX403935AD4DE74277A5D03D4453525D08">
+					<Item class="Part" referent="RBX018493A94E984843A3812CC3118F9ECE">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -5663,7 +5663,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXA3C7FB3E011449019C5DBF67494CC305">
+					<Item class="Part" referent="RBXEFA859F6CC194DE38BD1CD0B4704F73F">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -5759,7 +5759,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX7D5F401D71EC4BAFA85C99A6FCE57EEC">
+				<Item class="Model" referent="RBX7686A7A33DC74EC3ABFE794FCF92745B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -5786,7 +5786,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXBD76D9A9B94E4A4AA6DCAEC91C322F25</Ref>
+						<Ref name="PrimaryPart">RBXF1062B4B0C3642B8818658F406E88CD7</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -5806,7 +5806,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX44C13C0254694CFC85F47DFEACBD082E">
+					<Item class="Model" referent="RBXF825C5AA89B04F629E2C6E242E97A3CF">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -5853,7 +5853,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX25C32B57111F4EF396E04E240C12F573">
+						<Item class="UnionOperation" referent="RBX8858C4FAAC434572AA5CD8134D4FECC5">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -5963,7 +5963,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXE6AA7699B42C4E64B23496CFC28CA129">
+						<Item class="UnionOperation" referent="RBXE7786D47E7FF439F9EC830DBCB92C514">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -6074,7 +6074,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXB85E11BC92354A0B9B2D847C978CE541">
+					<Item class="Part" referent="RBX2B036165B8BB48BA9BE5FB0C9737FCBD">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -6169,7 +6169,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXBD76D9A9B94E4A4AA6DCAEC91C322F25">
+					<Item class="Part" referent="RBXF1062B4B0C3642B8818658F406E88CD7">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -6265,7 +6265,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX797BFC88033548BB8000ACB79776D0E6">
+				<Item class="Model" referent="RBX3ABCED27A85B42258E4E249B7CEBC8E6">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -6292,7 +6292,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX6474C49BD0564DAAB19FE479DE26D60C</Ref>
+						<Ref name="PrimaryPart">RBX0C55F2AFB7F74E1C94ED7ED8EC7ECB66</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -6312,7 +6312,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX406A3B91046F417783C1D405DB6BC627">
+					<Item class="Model" referent="RBXDFD01E048C254A0D9D9C98D2AAE2CF7D">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -6359,7 +6359,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX25B568F20F2845CD8863790334E89AA5">
+						<Item class="UnionOperation" referent="RBX17F588AA2A95437FAA2EEB56835A3773">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -6469,7 +6469,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXD709ABF2BF544030A5D0AAAC8D4D7175">
+						<Item class="UnionOperation" referent="RBXE965CDA16BD74A39B5A66ED57E082858">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -6580,7 +6580,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX3BFC611B04BB4119A55D22CBD6886E46">
+					<Item class="Part" referent="RBXF2488D455D1E45D7B629C35D8D512B2C">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -6675,7 +6675,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX6474C49BD0564DAAB19FE479DE26D60C">
+					<Item class="Part" referent="RBX0C55F2AFB7F74E1C94ED7ED8EC7ECB66">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -6772,7 +6772,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX1565F470C00E46089A0868D21C828777">
+			<Item class="Part" referent="RBXC14BB58178A9496881A50218B0F8B8CD">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -6866,7 +6866,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBX9CA3AA71ED184B2A81C65603CCE33B0F">
+				<Item class="BillboardGui" referent="RBX3709FFA9B57D465CB5B7E61C9D7E0AB5">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -6924,7 +6924,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBXD57094DDF96148D68AB411299A69DF60">
+					<Item class="ImageLabel" referent="RBXFBA4C10506C444498ED85368400AAE49">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -7020,7 +7020,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBXE84609CDB16D4A6BA48CC5F7FCC2F807">
+			<Item class="SpawnLocation" referent="RBXC27F1AFAC00D4A33B820B708FA368CA0">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -7121,7 +7121,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBXF88AC0CFD0A047FEADA94C2019540A26">
+		<Item class="Model" referent="RBXFF076D8E47BE4FC39FEEC5E4D548AFEA">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -7168,7 +7168,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX0CDEB59885694DB8B3BCCD1B9B4C470C">
+			<Item class="Part" referent="RBX900123ADB220481FA6306A231C30BC46">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -7200,7 +7200,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -7214,7 +7214,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -7262,7 +7262,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX787B0EA839CE4623A2C8E244564AFEF7">
+				<Item class="Texture" referent="RBX63594367333343F6BE2CB916AA525707">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -7279,19 +7279,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX076AE30ADE3442D297E8BF6B249AC42E">
+			<Item class="Folder" referent="RBX6CC5CA8358074DE0BBD717A7165E46A5">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBXC00D987B3E894FB6822AFF7F1D4A732D">
+				<Item class="Model" referent="RBX9BFF1AFD0D57463FA6EE0D4D75A03C7A">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -7318,7 +7318,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX81E18C9FA42748B5AFD8E7819AD03AA1</Ref>
+						<Ref name="PrimaryPart">RBX8DB1C2F096E44AAD9E16F5BA7527FB45</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -7338,7 +7338,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX118119131AF24AC89F5C82A7AA894E4C">
+					<Item class="Model" referent="RBXBEAC45F92F9A48DCA208DB326F2890C0">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -7385,7 +7385,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXD65B229FFAA646E9802F2625FF5194B4">
+						<Item class="UnionOperation" referent="RBXA909B908528F44C4A48402450254F91D">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -7495,7 +7495,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXF299BF069EFF4E40B864284033FFB65F">
+						<Item class="UnionOperation" referent="RBX86103813EEFF473E86880FFF5F3335D1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -7606,7 +7606,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX1D4A2248322345E8A6237C1947E8045B">
+					<Item class="Part" referent="RBX07DC1D1BBD5843C791259920DF1751C8">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -7701,7 +7701,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX81E18C9FA42748B5AFD8E7819AD03AA1">
+					<Item class="Part" referent="RBX8DB1C2F096E44AAD9E16F5BA7527FB45">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -7797,7 +7797,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX6976560124464960BCC1287E525C21E5">
+				<Item class="Model" referent="RBX63DB6D44FC31419DA81C1D5F5EE42BC1">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -7824,7 +7824,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX82DEB98B8D084EE299CA6775F9DC65AE</Ref>
+						<Ref name="PrimaryPart">RBX7679C398F83A44428FD23CB2180E93E1</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -7844,7 +7844,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX1F14021FE8674B2BB98351E58118C954">
+					<Item class="Model" referent="RBX41E3355BE622460F8F662DFF818AB8AE">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -7891,7 +7891,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXC44C002337E646678D7E5F8CE4E50D8D">
+						<Item class="UnionOperation" referent="RBX7BA47DDC2DFF4F49A0A78566AC9B012F">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -8001,7 +8001,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX2379BA951AFE4D55A2586284E77B360C">
+						<Item class="UnionOperation" referent="RBX2A48FB013EBC46D8A7B300DD7E19A8FE">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -8112,7 +8112,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX53E84DFAFE264EEDA804E779223E8494">
+					<Item class="Part" referent="RBXDEF8322D72164B8D9F54A759E1AD79C9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8207,7 +8207,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX82DEB98B8D084EE299CA6775F9DC65AE">
+					<Item class="Part" referent="RBX7679C398F83A44428FD23CB2180E93E1">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8303,7 +8303,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX39296B2C7F8246028759826800B92C5B">
+				<Item class="Model" referent="RBX9A8B1993559149D399ABCF817DED463F">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -8330,7 +8330,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXC54E074D3FC7418CA6640B6965F47782</Ref>
+						<Ref name="PrimaryPart">RBXBD9D55F3057C4F8FB2B3BA016A64B177</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -8350,7 +8350,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX0280E2F8B66144F4934409003D52AAD6">
+					<Item class="Model" referent="RBXE1FF3826EFCE484A83EACD717367A945">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -8397,7 +8397,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX6142DE52EB5F4582B1BF48362CC4E9FB">
+						<Item class="UnionOperation" referent="RBX83A107A831614BC696B6DC49502CED23">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -8507,7 +8507,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX8151BA09961447A59BA713B0D7CE5CE4">
+						<Item class="UnionOperation" referent="RBXCB5446C0161643509B07055C2D9555C6">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -8618,7 +8618,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXF79D95A4C6A447348897EE0CAFE454F5">
+					<Item class="Part" referent="RBX83271D89E5F74824A8573AB9D0A81F7D">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8713,7 +8713,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXC54E074D3FC7418CA6640B6965F47782">
+					<Item class="Part" referent="RBXBD9D55F3057C4F8FB2B3BA016A64B177">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -8809,7 +8809,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXB156C0007C214970BA687B4DFAED37C2">
+				<Item class="Model" referent="RBX937D9069BF024ECEADE7680992264690">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -8836,7 +8836,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX17A5CDE918B94AC89EFB7C2DA7FEBFA5</Ref>
+						<Ref name="PrimaryPart">RBXCC50FF7AE4554ED1B2EDDA576F0790AB</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -8856,7 +8856,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXFC0D8F3296B342B695F1B080B6E86940">
+					<Item class="Model" referent="RBX864429E3ADBA4DD5B8F4659C3BFD946D">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -8903,7 +8903,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXF717CB97E4D7444FBABDCC9F4F998873">
+						<Item class="UnionOperation" referent="RBX1E371298501E4C86B210425F0C8EBF8B">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -9013,7 +9013,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX051D357A3A1C41559429123D1C8FC29B">
+						<Item class="UnionOperation" referent="RBXBA7BB0F74AA04BBBBEC7673390B7A4B5">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -9124,7 +9124,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXAF157FAF602C407FB59A77E81AB26136">
+					<Item class="Part" referent="RBXAC5A4199CC984651AA70FB9678F9795C">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -9219,7 +9219,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX17A5CDE918B94AC89EFB7C2DA7FEBFA5">
+					<Item class="Part" referent="RBXCC50FF7AE4554ED1B2EDDA576F0790AB">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -9315,7 +9315,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXFB2B1AD3D91A45B89682BF585807EF40">
+				<Item class="Model" referent="RBXDF51A932FED842A19A40C41DDEB9142B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -9342,7 +9342,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX8C7122BEADD84F12A955E51E0EB5F7D3</Ref>
+						<Ref name="PrimaryPart">RBXF38F6F4507244E118C506D1A929AF724</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -9362,7 +9362,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXE9D8CD94CB3C44D5A81D9D7FE11B0AF6">
+					<Item class="Model" referent="RBX050999FA85F34C9499FCB2422E97D190">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -9409,7 +9409,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX5AB111E4751848B6A8FCFF4C0CF32802">
+						<Item class="UnionOperation" referent="RBX74B1F36EF5DD417ABA746B28D534253A">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -9519,7 +9519,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXEBE1BA054A934A2FA7298B0D1B321EB6">
+						<Item class="UnionOperation" referent="RBXE8D5A8DF00F64A898EA866AA5A944371">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -9630,7 +9630,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX672362786B424271BD92C6D687FD08C5">
+					<Item class="Part" referent="RBX414F615F89424013BCE58190C2489A45">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -9725,7 +9725,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX8C7122BEADD84F12A955E51E0EB5F7D3">
+					<Item class="Part" referent="RBXF38F6F4507244E118C506D1A929AF724">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -9821,7 +9821,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX2BAB9C09EDDF444ABBDAB191796C5C88">
+				<Item class="Model" referent="RBX017B9C3AF7BF4F6BB02294D2157184B2">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -9848,7 +9848,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX66DE4548DD644E5AA7B643A3726D39D8</Ref>
+						<Ref name="PrimaryPart">RBXF706F9AB6CF24F5DBAD97F41B50C1D3C</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -9868,7 +9868,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX6A8CF82FBDA4423AA5A9584E198FF522">
+					<Item class="Model" referent="RBXB38E3C1EE4714D54A135BBFB8BBBC2CF">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -9915,7 +9915,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX20B4F7D7299C4EE4B63FD125275B31D4">
+						<Item class="UnionOperation" referent="RBXA92663E7A30C4FF5B241A6179C270777">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -10025,7 +10025,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX3DDB1AFE5EAE4D9EA2A70673F787DAEA">
+						<Item class="UnionOperation" referent="RBX17DE251E35C7456AB6C0921FAAD37A79">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -10136,7 +10136,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXC287BADBB8794F16912C80C6457C6195">
+					<Item class="Part" referent="RBX190513F97A75419CA95AC7FD41DD7D5F">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -10231,7 +10231,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX66DE4548DD644E5AA7B643A3726D39D8">
+					<Item class="Part" referent="RBXF706F9AB6CF24F5DBAD97F41B50C1D3C">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -10328,7 +10328,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX0B91075C48A44935A1E98E3A8E35500A">
+			<Item class="Part" referent="RBX015856F7B6684FC69B4A4A2D833429D6">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -10422,7 +10422,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBX5AD025D3CB494F51B3A8A261BC68ACA0">
+				<Item class="BillboardGui" referent="RBX13CBCD5CA77D4FD598D7DFA15DEC5731">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -10480,7 +10480,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBX1359512F1F694B10BC2FA147DA6C7913">
+					<Item class="ImageLabel" referent="RBXB2DC2E0752DA455C86EC1EC26A1366E4">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -10576,7 +10576,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX5B941BE61BBC49B9A657D31ED0E2FA8F">
+			<Item class="SpawnLocation" referent="RBX6377B283109145739991A8BD4A171982">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -10677,7 +10677,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX769FF4F4F7D349458B3A1296EECF339C">
+		<Item class="Model" referent="RBXCC3CCD879D224613B0A97F702936E8E5">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -10724,7 +10724,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX6AEE264DC86B485BADB524F280FBA34B">
+			<Item class="Part" referent="RBX5D3D1B23F11D4616AD6FB4AE61C01A65">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -10756,7 +10756,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -10770,7 +10770,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -10818,7 +10818,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX22ADF50FD8094393A860A2348FB9389F">
+				<Item class="Texture" referent="RBXF18FC88CEF204D66954A0816A4812372">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -10835,19 +10835,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX0E1C4E0F26D64F9299EE049C0F3B9E90">
+			<Item class="Folder" referent="RBX12CF4A2E63AB407BAEE00D31E76D35A7">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX6705B2C115174619B28496122F0ACACB">
+				<Item class="Model" referent="RBXEA565C5A2BF947168BBF8879F96C2C1E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -10874,7 +10874,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXE924A98D4DD6452CA8B5BF2031A079CE</Ref>
+						<Ref name="PrimaryPart">RBX4EAF4EDEE32B4B799EDF144626BF0990</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -10894,7 +10894,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX6B7B25B3F4AA4D77B33085403251B95B">
+					<Item class="Model" referent="RBX40B78187DE7540CCBF90A8BB8EACF115">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -10941,7 +10941,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX4879370F3C7F4E01BADECDF0A3268BBD">
+						<Item class="UnionOperation" referent="RBXFD7438BCF4564F8A93818B15325622B2">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -11051,7 +11051,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX86A2AD561B4F4E2EAF6FD9868771009A">
+						<Item class="UnionOperation" referent="RBXCA441D15347B4195B7A22B988260E389">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -11162,7 +11162,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX3815632B8B334FAB833BA10896F025AF">
+					<Item class="Part" referent="RBX39D643A422794629AEF058864E9A6F3E">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -11257,7 +11257,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXE924A98D4DD6452CA8B5BF2031A079CE">
+					<Item class="Part" referent="RBX4EAF4EDEE32B4B799EDF144626BF0990">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -11353,7 +11353,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX2CFE0FEBE3F94F83AE2A43882E11AB57">
+				<Item class="Model" referent="RBX20D3FF4A1CC04F47883EECCB0FE3B062">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -11380,7 +11380,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX78864F0C28B5439981EDD80914536BFA</Ref>
+						<Ref name="PrimaryPart">RBX39E923BEAF144878BB1BEA2121FCABCA</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -11400,7 +11400,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3858346F173E48F69038EF8910E8B8F1">
+					<Item class="Model" referent="RBX5C89823D00254898A595CC491868FEAC">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -11447,7 +11447,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX7472B452DA5E428A814A3E895D2625C4">
+						<Item class="UnionOperation" referent="RBX51556B7B1D5145EEB20EB74AA8B6B6B4">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -11557,7 +11557,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX93155B5B949442B2947E37986EDC2356">
+						<Item class="UnionOperation" referent="RBX0C6EDA0D90234A87BB11776E3291403D">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -11668,7 +11668,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXFF25A5DD06D74F558BE8B0D6847147FB">
+					<Item class="Part" referent="RBX8736DF3EEB0A4084917ADD9907A52C70">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -11763,7 +11763,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX78864F0C28B5439981EDD80914536BFA">
+					<Item class="Part" referent="RBX39E923BEAF144878BB1BEA2121FCABCA">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -11859,7 +11859,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXB74F023F011D4E2AB127072917D9E27B">
+				<Item class="Model" referent="RBX6DDBFAB255EB4304A69067ACAD18A7CE">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -11886,7 +11886,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXE17CDF0CD56E4EF0946EE1F25D16753A</Ref>
+						<Ref name="PrimaryPart">RBX77ACB66558F84213BE0A5B7F452CA30E</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -11906,7 +11906,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXB1F60D55346F44EAA29C3F2518CEDF41">
+					<Item class="Model" referent="RBX1304B166E7514EBB8DCBE9650627A2FF">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -11953,7 +11953,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX03EA1CF912BD43A6A45AB944E2BB8BB2">
+						<Item class="UnionOperation" referent="RBX75DB16D7724F4786A63D8A7DD1356489">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -12063,7 +12063,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX3486F5AB1E674856924CF2C957F86346">
+						<Item class="UnionOperation" referent="RBX4BE6CB0528E14C49A8C1A44BBB4D2296">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -12174,7 +12174,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXF6DECB2A09D44781A44741EFA590AED6">
+					<Item class="Part" referent="RBXC8A2A7AB45214223A4C12F8B5C840387">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -12269,7 +12269,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXE17CDF0CD56E4EF0946EE1F25D16753A">
+					<Item class="Part" referent="RBX77ACB66558F84213BE0A5B7F452CA30E">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -12365,7 +12365,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXBF8DDF3E94D54B7E8EA360E9DE071317">
+				<Item class="Model" referent="RBX2A583A663CFF467187E1E15C3D4E76F6">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -12392,7 +12392,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX36AEB658486740FAAC4F2CE4A8CD40C9</Ref>
+						<Ref name="PrimaryPart">RBX2449496BD60D40D5A71D6F4071E522EC</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -12412,7 +12412,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX74004F2FEB0B4F83946890A0FEB3BB73">
+					<Item class="Model" referent="RBX624E27DD30814F83B1A1EB169B0F97B7">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -12459,7 +12459,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXB5C70A3360F5426D9D1F3A24502C0137">
+						<Item class="UnionOperation" referent="RBX5F17EDD6265845D6A92A5DC11A1E0F26">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -12569,7 +12569,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXFD682CFF16E04E82B1194FEBE4D6C4C9">
+						<Item class="UnionOperation" referent="RBXFE83B0678BFD46D1A105FDDE3EAF3251">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -12680,7 +12680,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXF82E88BC742043B88C4EC01905B4468B">
+					<Item class="Part" referent="RBXC40755E66CDE4D7CBD7E2298A78E7614">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -12775,7 +12775,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX36AEB658486740FAAC4F2CE4A8CD40C9">
+					<Item class="Part" referent="RBX2449496BD60D40D5A71D6F4071E522EC">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -12871,7 +12871,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXEDCE9D1050FC4441B1984D965E5F1605">
+				<Item class="Model" referent="RBX819D676709634D2C82DF13F83B662115">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -12898,7 +12898,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX4AEBC6F0B9FA498C812F2912205C42B8</Ref>
+						<Ref name="PrimaryPart">RBXFDD5FA8FDFF04B41BA374E5F67748D39</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -12918,7 +12918,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX8B23EBBC91EB4A37A7B1CA4501EC6C49">
+					<Item class="Model" referent="RBXE6C92621745A4F408DDC86D9431B084A">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -12965,7 +12965,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX9A5D43DAB73A444A9D4E5EA5AC120161">
+						<Item class="UnionOperation" referent="RBX1C602C0DCA28448A884288B0C479D3DA">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -13075,7 +13075,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXF53C3DF2C6434CF9865CBCB868F6CEEE">
+						<Item class="UnionOperation" referent="RBXBD1DFBEF0A5B4464A7E70CFD5FEAEAEC">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -13186,7 +13186,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX58D7DC1F033F430EABEE0CA7A41D3995">
+					<Item class="Part" referent="RBX020BED1AB4C343919AABF1E3AB4DED49">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -13281,7 +13281,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX4AEBC6F0B9FA498C812F2912205C42B8">
+					<Item class="Part" referent="RBXFDD5FA8FDFF04B41BA374E5F67748D39">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -13377,7 +13377,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX0101314AF9F14E659582B84D9D8CB313">
+				<Item class="Model" referent="RBX9A9E58C1A956432AB0520347F5E441F8">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -13404,7 +13404,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX8D133438876F451A932FBB79BC21D4BB</Ref>
+						<Ref name="PrimaryPart">RBXAA3254669EBB4611AB0B48BDE7EBF87B</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -13424,7 +13424,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX1FCDC7A58EA24B65A6162E780E1B8C7C">
+					<Item class="Model" referent="RBX81A241B54F4B417FA1ECEDE4BE930CCA">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -13471,7 +13471,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX9507292743274720BC253EB51431F66E">
+						<Item class="UnionOperation" referent="RBXD0A92FD5874C414FA358801606F2D398">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -13581,7 +13581,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX2AB47AAA90B44EA493ACDBA946EC1C70">
+						<Item class="UnionOperation" referent="RBX6E9015E0BFF042CE85A54C7CC81AE715">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -13692,7 +13692,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXF0EEE2EE791A4AE8A59CF46E170FC220">
+					<Item class="Part" referent="RBXC8090AD7348341FABFCB0B4F85FDAA4E">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -13787,7 +13787,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX8D133438876F451A932FBB79BC21D4BB">
+					<Item class="Part" referent="RBXAA3254669EBB4611AB0B48BDE7EBF87B">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -13884,7 +13884,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX80E2EFB8BB234B679ECDC5BFCCA0D519">
+			<Item class="Part" referent="RBXC5856BC1B8AF48B3BBD625885B54E778">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -13978,7 +13978,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBXD0D6900258E84029BE530F6849CE3DE4">
+				<Item class="BillboardGui" referent="RBXF610873C7B4D47AFB5D2C5D7E9A3AB79">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -14036,7 +14036,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBX85849186825547C49FCF7716F9A699A8">
+					<Item class="ImageLabel" referent="RBX5F1FA1E709BF43AEAA21494729CFB201">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -14132,7 +14132,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX8E34CCF244DF43AA9495EF88D8D40279">
+			<Item class="SpawnLocation" referent="RBXF06A19AB3DB747E2B3A74879226F54E3">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -14233,7 +14233,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX2D4AEA612CA540E6AF0580F31357BBB6">
+		<Item class="Model" referent="RBX0D42E7D456BC45B8A4A5AC9424A90626">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -14280,7 +14280,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBXBEEE7B19D2794009ACFC49229B41DA44">
+			<Item class="Part" referent="RBXA78C0F1044C1477F9274DFF6F527DE85">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -14312,7 +14312,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -14326,7 +14326,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -14374,7 +14374,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX69E45A8168204D15AED1C57202219B6C">
+				<Item class="Texture" referent="RBXF78E4033CB4249A3AF6E7A6B12AC15AB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -14391,19 +14391,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBXD98646DB721F42A781B06D9294DD9144">
+			<Item class="Folder" referent="RBX26AF665514B143529E1E163CE9C182BC">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX78DEB9458D0E4A52889E5568FD5DB0BA">
+				<Item class="Model" referent="RBX3D51F51A34A54E58A7E36014F267DF00">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -14430,7 +14430,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX42856C9DCF4F4FC58595E32EDB8A628D</Ref>
+						<Ref name="PrimaryPart">RBXEA69B146E4AE419F940AB019E6655576</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -14450,7 +14450,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX0F42467A4C584F2F856D0CDAC75B80C5">
+					<Item class="Model" referent="RBXFA09B6D43C3C45ED9F339AD18FCC6E6D">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -14497,7 +14497,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX117DB68B3524425DABCC93AC4AB55404">
+						<Item class="UnionOperation" referent="RBX4A76EAD65E444962B1E9109D0CC52122">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -14607,7 +14607,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX700495E3A71C4FBAAC0D52D51892E3DA">
+						<Item class="UnionOperation" referent="RBX42A1CC3C787C4AE192E984F172F8AFC6">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -14718,7 +14718,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX75C6346783FF4CB997D91D234F8415B1">
+					<Item class="Part" referent="RBXF6DFC1389928447283E0EE6C2C8012C4">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -14813,7 +14813,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX42856C9DCF4F4FC58595E32EDB8A628D">
+					<Item class="Part" referent="RBXEA69B146E4AE419F940AB019E6655576">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -14909,7 +14909,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX9B4BFFA1C71B4C8D9E2F718ABA37CF05">
+				<Item class="Model" referent="RBXEDB456068C74423EB3B8A0698432ADAA">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -14936,7 +14936,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXB416C9D1355D4F51A73E161A0E6652CA</Ref>
+						<Ref name="PrimaryPart">RBXC942CA5B13624E3DB15E02C5D76BD6A0</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -14956,7 +14956,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXC0B26279F93747BB9CAE7688E349FAB2">
+					<Item class="Model" referent="RBX0A8064B16EC34109AA28A156C19301AD">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -15003,7 +15003,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX3FD581C0F3E04BD8AB05230D76585EAD">
+						<Item class="UnionOperation" referent="RBXF89A91503B794C42861B814A75EC8354">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -15113,7 +15113,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX7044B09B345140F69A3902BB9E1E6EDB">
+						<Item class="UnionOperation" referent="RBXDAA021264ED44B7AA0754208C6309779">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -15224,7 +15224,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXFB6EBD2A775B4FA1AA55569AF80449AF">
+					<Item class="Part" referent="RBX27B0BC9FDDE548099CD87D1EEAF6B363">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -15319,7 +15319,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXB416C9D1355D4F51A73E161A0E6652CA">
+					<Item class="Part" referent="RBXC942CA5B13624E3DB15E02C5D76BD6A0">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -15415,7 +15415,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX70F32E01153A4DD297ADDA5E2BD53941">
+				<Item class="Model" referent="RBXD4E52EC4816E4CB68DEF3DB27AB8BEC3">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -15442,7 +15442,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX8FA75DDE82C2464BB407FEABB29C24B0</Ref>
+						<Ref name="PrimaryPart">RBX96DE6287D0AF471393EDBD4994D8B5E2</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -15462,7 +15462,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX61F169C389D043018871C7C488049B64">
+					<Item class="Model" referent="RBX0D963B75F4794389A8FAF116507B6A7C">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -15509,7 +15509,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXF16C92CD92D84E3495D59FE2E3A094A8">
+						<Item class="UnionOperation" referent="RBXC0507DB6D5414A2FB6FD5777DAF609E3">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -15619,7 +15619,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX1622FF5B73F74C1AB03F274DB04E8B3C">
+						<Item class="UnionOperation" referent="RBX4CA0588254E3473BA8A00A17BAC055F0">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -15730,7 +15730,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX7014113200984E2194CF2E05268EA8FF">
+					<Item class="Part" referent="RBXEC72107DB0884A20B924818D56514FDA">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -15825,7 +15825,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX8FA75DDE82C2464BB407FEABB29C24B0">
+					<Item class="Part" referent="RBX96DE6287D0AF471393EDBD4994D8B5E2">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -15921,7 +15921,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXA222AF4120714B998778D544BE9729BD">
+				<Item class="Model" referent="RBX00D1746657284E55A78F3048FAB9520E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -15948,7 +15948,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX1C075B3C0CAC48ACB4E05933484BB2EA</Ref>
+						<Ref name="PrimaryPart">RBXBDC4BA1FF52348288C039ABF5BFD26D1</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -15968,7 +15968,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX0DB2BEF87BD1417598CE6038E4988217">
+					<Item class="Model" referent="RBXFA70139A9F114269AA3B525B114CD220">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -16015,7 +16015,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXB6B7891818644C00A155677A77DEF754">
+						<Item class="UnionOperation" referent="RBX75C21EAE238D4CCCB3518A7BBC22A3D1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -16125,7 +16125,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX261EB0DBAA9E47039F063B248410B327">
+						<Item class="UnionOperation" referent="RBX0D6A1C766C1D4090BB2730618D03E343">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -16236,7 +16236,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXE23DAC9398744EECB76EE22C8912FA6C">
+					<Item class="Part" referent="RBXAFFC3E4A213E48C1B69A0865B89AAFFD">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -16331,7 +16331,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX1C075B3C0CAC48ACB4E05933484BB2EA">
+					<Item class="Part" referent="RBXBDC4BA1FF52348288C039ABF5BFD26D1">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -16427,7 +16427,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXA446606F2271414696D89F30BC33F729">
+				<Item class="Model" referent="RBX243DFF85118B4C56ACA5F684F81CD47F">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -16454,7 +16454,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXC0451D2A25774314A81C7A2B0FE8AF87</Ref>
+						<Ref name="PrimaryPart">RBX7CE9A2D6C0D442EBAC918866CBD13C9F</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -16474,7 +16474,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXC86016AAFD7F4B0DB5F804B180BEB578">
+					<Item class="Model" referent="RBX8C2298D0E9EA4FBA8C9AF8E79B138AA3">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -16521,7 +16521,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX4DE6BABD12ED4D3DA22A2C7752032784">
+						<Item class="UnionOperation" referent="RBX4B88A9C634EB481C9E3432FFB6B0CF53">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -16631,7 +16631,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX69172507865E45F4A91AC430480EAA44">
+						<Item class="UnionOperation" referent="RBX4D6D0F3E5A6646C78EEF03E2FA975669">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -16742,7 +16742,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXAC9337EFD8CA46E9A4A2A08637B16A4B">
+					<Item class="Part" referent="RBX1F3C2605EA2C4713BE97E4DD2F934F5B">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -16837,7 +16837,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXC0451D2A25774314A81C7A2B0FE8AF87">
+					<Item class="Part" referent="RBX7CE9A2D6C0D442EBAC918866CBD13C9F">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -16933,7 +16933,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX8D9F1AE9626743B8B7D0190A3EE9D89A">
+				<Item class="Model" referent="RBX5DC895A0A6A942CFBCFDCAC232921C5D">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -16960,7 +16960,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX2B646D89882542EDA33F672EF9401779</Ref>
+						<Ref name="PrimaryPart">RBXB9E6AD9D994245F795C6B1375FFB144A</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -16980,7 +16980,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX444F35B8FF88481E85A1C119E739E20B">
+					<Item class="Model" referent="RBXC3C4FBBB7E41466A8035A1DBD5A95759">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -17027,7 +17027,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXBC2A6760090F4F699E5ECF9CF36CBE0B">
+						<Item class="UnionOperation" referent="RBX14E14E5F7A8947A09A6D49811987E2BA">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -17137,7 +17137,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXB5F7794D6D63416386B046A0162B8913">
+						<Item class="UnionOperation" referent="RBX3DACF9AE132C483288A11C0F4E7A00C1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -17248,7 +17248,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX9889FE4115CB4F348AE3E08B67BB26E4">
+					<Item class="Part" referent="RBX05CF580525284387B2CF5334A16A4418">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -17343,7 +17343,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX2B646D89882542EDA33F672EF9401779">
+					<Item class="Part" referent="RBXB9E6AD9D994245F795C6B1375FFB144A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -17440,7 +17440,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX7AC3D9FFA583472794E84C97BCC8A242">
+			<Item class="Part" referent="RBXEE1DEF85753F4CB68A27DAFDF02BDE8A">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -17534,7 +17534,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBX37427EBFD4AD41BBB51B8786887396FB">
+				<Item class="BillboardGui" referent="RBX8D97F9CE3C3C4E8FAA6C419C647C51BA">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -17592,7 +17592,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBXC4B960C2F90840F0904635D0F466E2F4">
+					<Item class="ImageLabel" referent="RBX058A41CD71E94C3196FBE3020B081AAD">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -17688,7 +17688,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX7BE6291588B04C4C99A049556F4BAB48">
+			<Item class="SpawnLocation" referent="RBXE53380D2ECC24091B9AA4AD0BDD570F9">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -17789,7 +17789,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX1D3CF223F33B4F7CAD4ED834E419DB61">
+		<Item class="Model" referent="RBX78BD43A11C1347898D02564D92768BF1">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -17836,7 +17836,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX0EF011EF3E754DDB92D7AB9724B7C514">
+			<Item class="Part" referent="RBX251047FB9F4946788550C6FE09B94F83">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -17868,7 +17868,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -17882,7 +17882,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -17930,7 +17930,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX524F495AE5EC42CF8340B41F726B1CEC">
+				<Item class="Texture" referent="RBX6BD80F44963B4F4C9D954BF1E9148629">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -17947,19 +17947,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBXA458902476B84A74BD289C83FEBDA865">
+			<Item class="Folder" referent="RBX00F70AC492C94FA89E60356F967B341C">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX195BA1F8A4A94DB3A788BA386C6ECE65">
+				<Item class="Model" referent="RBX5DBD54584C5E4121A87A9C01ACF4F2FE">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -17986,7 +17986,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXA6022B307C964CF1A4583DC20D99F2CF</Ref>
+						<Ref name="PrimaryPart">RBX627EFE71ACDC456682E7F1E3624AD36A</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -18006,7 +18006,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX2E36359EF9984B1E95AFDB4D2D657774">
+					<Item class="Model" referent="RBXA8255E0793C6440B8F9A454CB5BB6B93">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -18053,7 +18053,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXB913299BEE0546E088D3811FB598E951">
+						<Item class="UnionOperation" referent="RBX88BA24EBEBA5485F948730A338D0D1B4">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -18163,7 +18163,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXFE1D388621DE4622AFFAA0F8ADD82441">
+						<Item class="UnionOperation" referent="RBXE41B347F79C14DA3B21D73C3CD6B34FE">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -18274,7 +18274,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXD31CC06FB69D494F84DAFDF160FBBB68">
+					<Item class="Part" referent="RBXD01010C478184FBBA6EA2C4C6C0556F6">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -18369,7 +18369,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXA6022B307C964CF1A4583DC20D99F2CF">
+					<Item class="Part" referent="RBX627EFE71ACDC456682E7F1E3624AD36A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -18465,7 +18465,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX624BE843C061405A8E541BD6DE7FABC3">
+				<Item class="Model" referent="RBX5D1801FAEA38458B98E69F3E9A1FD843">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -18492,7 +18492,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX75F1C4632D9D4EE29C4D1C8698665641</Ref>
+						<Ref name="PrimaryPart">RBX96879D1EB1BE49D88C887850D9303D39</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -18512,7 +18512,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXDB5B2F360D2B4542A6199C4A4A70E623">
+					<Item class="Model" referent="RBX631D80A5B0924C0282C6CB64E41E79E3">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -18559,7 +18559,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX79205723FFBD49D1B5905A505B7F4AB6">
+						<Item class="UnionOperation" referent="RBXCE7BE3FD19684A6C96CE58CF23D7181C">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -18669,7 +18669,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX8ADCD06506B54551B46B927EE15FF789">
+						<Item class="UnionOperation" referent="RBX50542D9F6B864BA69CC8CAF8C2973496">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -18780,7 +18780,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX842034E8DE8B453B8F212605397BBB26">
+					<Item class="Part" referent="RBX4C39396452154BF187CFB1F1FDE69E98">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -18875,7 +18875,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX75F1C4632D9D4EE29C4D1C8698665641">
+					<Item class="Part" referent="RBX96879D1EB1BE49D88C887850D9303D39">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -18971,7 +18971,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX80E0D57CE5D943CCAC6EC58E47BECE2F">
+				<Item class="Model" referent="RBXA0B8F08D06A74B459EBA461CF57EE7C6">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -18998,7 +18998,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXA96301A3B9E04A18A1AFE4F7C4DA22A2</Ref>
+						<Ref name="PrimaryPart">RBX620613D8BDB54AE7B2EFBBC198BFC8E9</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -19018,7 +19018,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX278FD462648B4AB194677D1DD3F3BA8E">
+					<Item class="Model" referent="RBXF9777D8492D34B2DBD236DC16C5AE878">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -19065,7 +19065,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX6446048B60F0461CA833460B18C60D82">
+						<Item class="UnionOperation" referent="RBXF60ACD1173714303A3255743D4E03E75">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -19175,7 +19175,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXBF2938AB130D42AABA1A055AFCBBBEDD">
+						<Item class="UnionOperation" referent="RBXD409FA19A45D437F930CC7602C196659">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -19286,7 +19286,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX6E97DCD54CCA403C835B7E3FA2517543">
+					<Item class="Part" referent="RBXF3A256F3120D40E089FDD4D72E626246">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -19381,7 +19381,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXA96301A3B9E04A18A1AFE4F7C4DA22A2">
+					<Item class="Part" referent="RBX620613D8BDB54AE7B2EFBBC198BFC8E9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -19477,7 +19477,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX3E9B7EF96E23427F8764D7E57E5679B9">
+				<Item class="Model" referent="RBXFE047CC870114B66AF7D6897713448A6">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -19504,7 +19504,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXF88A526D9A6F4377AFD8EEC96DCB7436</Ref>
+						<Ref name="PrimaryPart">RBX6DE76B31950C4CE09BBE464D269C158A</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -19524,7 +19524,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3A2F60A5AE6446FBB89991F863FBB3B4">
+					<Item class="Model" referent="RBXE1EBB038FD6948A0B4187FE6A0850887">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -19571,7 +19571,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX6F7E3EB7627B44A4BDA7E1EC77F5BFF0">
+						<Item class="UnionOperation" referent="RBXCCEEEDF59CFF40B5825F18882C8F3563">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -19681,7 +19681,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX379AFB8BC1F548FBBD8AEF1B5144343C">
+						<Item class="UnionOperation" referent="RBXA8058064FB38436A837B828846F21997">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -19792,7 +19792,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX67E8992D02544A348D08E16A2255DE9D">
+					<Item class="Part" referent="RBXAF621557F27D421DA76FC2A91F08EDF9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -19887,7 +19887,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXF88A526D9A6F4377AFD8EEC96DCB7436">
+					<Item class="Part" referent="RBX6DE76B31950C4CE09BBE464D269C158A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -19983,7 +19983,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX8CC7D03C87AB4CA3A586964093BACDD1">
+				<Item class="Model" referent="RBXB6E17B70A9984CC6B0E2D5BF72E4A405">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -20010,7 +20010,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXD057E922D0934FFEAFEEBECDB4454A68</Ref>
+						<Ref name="PrimaryPart">RBXFB1DEFCB402541E0AB4E39026E0357B7</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -20030,7 +20030,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX4009F7B61329429EA6F9000FB6F3AB10">
+					<Item class="Model" referent="RBX86C789A15C064A12ADBE6B538D120889">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -20077,7 +20077,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXEDDC38D13FEA413981B6D850E184873E">
+						<Item class="UnionOperation" referent="RBX649BA0DEFB4E4B54805E45412CEF15EA">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -20187,7 +20187,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXA9250CB6732B44D4B1944B04B0E09BCE">
+						<Item class="UnionOperation" referent="RBX16D658A74C9F44DE8EC1CC2613D2B598">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -20298,7 +20298,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX57228407185A42FD938C3FD3097E9198">
+					<Item class="Part" referent="RBX3838AF1AFCE54E16A1A7F91BFF74F9D1">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -20393,7 +20393,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXD057E922D0934FFEAFEEBECDB4454A68">
+					<Item class="Part" referent="RBXFB1DEFCB402541E0AB4E39026E0357B7">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -20489,7 +20489,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX3087D36297A245E1853AEACB533C9E9A">
+				<Item class="Model" referent="RBX0FEFFAFDCBF84F928FF01A6F4E38A091">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -20516,7 +20516,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX60F1FA04A7F1499BA78D3E88FD6DA6CC</Ref>
+						<Ref name="PrimaryPart">RBX0729BBDD0F88486795960B6D88E9B651</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -20536,7 +20536,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXA368117682AD4237B793620D1184634F">
+					<Item class="Model" referent="RBX93CEF487D921485F8BC0535C82FD2D4A">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -20583,7 +20583,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXD5206585BBFE48CA98F25028B6CD01A9">
+						<Item class="UnionOperation" referent="RBX674E1046CE18495D9577264ED384DAED">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -20693,7 +20693,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXDBB92C50CDA24AE8881BBB837C1062C6">
+						<Item class="UnionOperation" referent="RBX28CD7C097D2C4D8F884EE32EFA8EE129">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -20804,7 +20804,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXD7310B71E54D425296F07940137942F1">
+					<Item class="Part" referent="RBX23AE806D8CA94D36B52B5B43995D0429">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -20899,7 +20899,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX60F1FA04A7F1499BA78D3E88FD6DA6CC">
+					<Item class="Part" referent="RBX0729BBDD0F88486795960B6D88E9B651">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -20996,7 +20996,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX93B5EA1233D74FC2B69A14A36CF65A82">
+			<Item class="Part" referent="RBX3611BCA20BFC4D8280E36279697DC53A">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -21090,7 +21090,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBX9EADCFC84FC14683BED3CD4D5B27B437">
+				<Item class="BillboardGui" referent="RBX5A2DB1B4C0514E03948A69676649C059">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -21148,7 +21148,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBX0911F97195064B9BACD57127E8A5B9C3">
+					<Item class="ImageLabel" referent="RBX88F4FEA8EA8F4A81AD388A2A015C8766">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -21244,7 +21244,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX9AA360E09D4E4E1BB044C1C3C25934D7">
+			<Item class="SpawnLocation" referent="RBXFEBA369E330D4349BAE0B5BAEA017F1E">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -21345,7 +21345,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBXB642F55A48454FD096F7FBE90CB561EB">
+		<Item class="Model" referent="RBXB120798DDE5F4405B79CC29E7F86CA9C">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -21392,7 +21392,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX480B2EEEA0A44CFE96B2C4C8B306C731">
+			<Item class="Part" referent="RBX9A6CF9DBA82443339006311CDB77348B">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -21424,7 +21424,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -21438,7 +21438,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -21486,7 +21486,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBXCA6244854AB945A1B0926B6917A4FD4C">
+				<Item class="Texture" referent="RBXAC33DB50133E41B38EAB057B8382B28F">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -21503,19 +21503,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBXD0014D2B60F24320AB80DB5A99C42F30">
+			<Item class="Folder" referent="RBX6E5F9CB0CC0B46B88BDC7915981CD3A0">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX697C869E42314C3986D4A6A4D21CF84B">
+				<Item class="Model" referent="RBXB59AE6DE01BC4A67952D0F5EE39D4BC4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -21542,7 +21542,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX8FB95119AA4A46D6B87A073BAEF2558C</Ref>
+						<Ref name="PrimaryPart">RBX626B1DFDFD1D4A6C987888D5104B6375</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -21562,7 +21562,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXE6F8546AAB59425AA7E9DF3D6088D25E">
+					<Item class="Model" referent="RBX63C08193D0D248439B55AEEDC90FC9AB">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -21609,7 +21609,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX6564D36418DD4BEB859FF764820516EB">
+						<Item class="UnionOperation" referent="RBXE341A6F2730D4DA28DB33A5AD06A5B20">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -21719,7 +21719,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX5944A5071C01437E868D242E83CCFDAE">
+						<Item class="UnionOperation" referent="RBX0E59ED67083B4EE0BCC5932BF52E9CC8">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -21830,7 +21830,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX822E91FC8D644AF390306EF271904F04">
+					<Item class="Part" referent="RBXBB78162A03E94E608624BE11B5072C07">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -21925,7 +21925,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX8FB95119AA4A46D6B87A073BAEF2558C">
+					<Item class="Part" referent="RBX626B1DFDFD1D4A6C987888D5104B6375">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -22021,7 +22021,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXCBAE799384F4406F96B45042E10552EC">
+				<Item class="Model" referent="RBX7CE3F12D691042889AA9C2F6A987CB64">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -22048,7 +22048,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX02E282D10ABE41638D64BF37C95F2865</Ref>
+						<Ref name="PrimaryPart">RBX9047BB798A864039A2540630D03933CF</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -22068,7 +22068,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXC53A89A789C443FF9B458A077DAE86EB">
+					<Item class="Model" referent="RBXFFF6542EE03E457DAC81195C798AEEEC">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -22115,7 +22115,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXC5AFC4BAFDD7455F9E26F7186D261D14">
+						<Item class="UnionOperation" referent="RBXA2A933768CBE41B2B2DEEC02F5D13B32">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -22225,7 +22225,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX9681A93409524A2D83955C38508900F5">
+						<Item class="UnionOperation" referent="RBX29466ABAAE58464DBD8A9D73C07DBD57">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -22336,7 +22336,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX1A8F2AB78DE5485AA83E74AD50C87620">
+					<Item class="Part" referent="RBXD7A5A4CD0E1A44F6A271248821DA73CC">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -22431,7 +22431,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX02E282D10ABE41638D64BF37C95F2865">
+					<Item class="Part" referent="RBX9047BB798A864039A2540630D03933CF">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -22527,7 +22527,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX59DDF23E1D6746AB9CF4B029280A12E1">
+				<Item class="Model" referent="RBX01BA73A9E24A44EDA00126EC5980B345">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -22554,7 +22554,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXC8EE8CF9903F4BFA9B6ADD70AC87076B</Ref>
+						<Ref name="PrimaryPart">RBX764047372672431BA1C33713F4E88CC3</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -22574,7 +22574,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3B1C8306DA25499CAD54556AC4B83D6D">
+					<Item class="Model" referent="RBX3F568AC8676F465B8FE90281B302B6A7">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -22621,7 +22621,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX390A467182E2489892A570451C4956EF">
+						<Item class="UnionOperation" referent="RBX40096D2243D4451398FDB32BFB5C94F3">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -22731,7 +22731,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXDA0BCD4E673F4D3F9EE22F3DD9C38365">
+						<Item class="UnionOperation" referent="RBXEA5FD26E09E64D17BCF882845C19E7A1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -22842,7 +22842,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX6FF04730F2ED4A9484788B4D352BE088">
+					<Item class="Part" referent="RBXEF3C0A4626224465AA53050BD8482C38">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -22937,7 +22937,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXC8EE8CF9903F4BFA9B6ADD70AC87076B">
+					<Item class="Part" referent="RBX764047372672431BA1C33713F4E88CC3">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -23033,7 +23033,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXC62BFDC6DC8A427A8AE01AD2B184AE8A">
+				<Item class="Model" referent="RBX3B16A58F97924AAEB574F5CB3A6B2F50">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -23060,7 +23060,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX8C4E0541104E4052B49EC644247E4134</Ref>
+						<Ref name="PrimaryPart">RBX6261F0BE8B9245968F854404FA17DB24</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -23080,7 +23080,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX4159397281B04F189CE49D38694E15D6">
+					<Item class="Model" referent="RBXBD23F68A76014E4B94744C5774E93854">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -23127,7 +23127,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXF08A0326A46B42AB96A7E5C43957EF35">
+						<Item class="UnionOperation" referent="RBXE8E74897758D47689DB532ED1C23167C">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -23237,7 +23237,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXACB0CF8949C94C48A5BE64D1E4078021">
+						<Item class="UnionOperation" referent="RBX10B48D92614D44EA865609041E8D8BF1">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -23348,7 +23348,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXCD785863FFCA48AEB5A356BC8419F075">
+					<Item class="Part" referent="RBXCC63539195A84AF19DBA39F9349653EE">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -23443,7 +23443,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX8C4E0541104E4052B49EC644247E4134">
+					<Item class="Part" referent="RBX6261F0BE8B9245968F854404FA17DB24">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -23539,7 +23539,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXCA9390CC9C0D4E75B0A0E17D87A6F13B">
+				<Item class="Model" referent="RBX3C12789B703F47C68941165C62BCBC4C">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -23566,7 +23566,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXB09340E6ECAA48B09D41C1478D701219</Ref>
+						<Ref name="PrimaryPart">RBX0E981237428D4560881B1AB4E5A1C755</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -23586,7 +23586,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX8F9E3B68B30D4C389D97C257D643547F">
+					<Item class="Model" referent="RBX6BB4D61573EC454FBABCBE1A4EA11548">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -23633,7 +23633,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXBE5AEF26716D4B66B73D8FC69BFF32F0">
+						<Item class="UnionOperation" referent="RBX718887DDAFD447D49D1B8B307E673F32">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -23743,7 +23743,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX5F7DFCDAC43C45BEB0907FB46AB56C6F">
+						<Item class="UnionOperation" referent="RBXB2313672EF7843AA9E76DD663BECDD0F">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -23854,7 +23854,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX058488B6B2394B8FB7B9D30126956134">
+					<Item class="Part" referent="RBX6F52E82A6D9C427082BB08F046D440AE">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -23949,7 +23949,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXB09340E6ECAA48B09D41C1478D701219">
+					<Item class="Part" referent="RBX0E981237428D4560881B1AB4E5A1C755">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -24045,7 +24045,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX334D917CB8C44D7C8A1129E72C482C2E">
+				<Item class="Model" referent="RBX1CB63DE353114127AECCC8024E5A4438">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -24072,7 +24072,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXED69AB1832B744D3871C1A52E4D17E3C</Ref>
+						<Ref name="PrimaryPart">RBX4588C4C55D3347E090EBA8E568DBC2A9</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -24092,7 +24092,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX58AD4EEC98404E42B3F90BF9E3AFF856">
+					<Item class="Model" referent="RBX7C7E4529872043F9978EBCD0CA61C771">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -24139,7 +24139,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXCD3CDE891EED4460848D3DA0C5FEC7CC">
+						<Item class="UnionOperation" referent="RBX2B52476B101F4E7C988F22A9EF785C8E">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -24249,7 +24249,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXF3782199FC5E423D9D8FA2B0AE149E69">
+						<Item class="UnionOperation" referent="RBXA85E366D1E974419B5EA3E72E671695E">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -24360,7 +24360,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX6337A274345B4FC5AFC4BAC37DA8062F">
+					<Item class="Part" referent="RBXF1DD4AE760EC491A94B67A9F1D39F207">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -24455,7 +24455,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXED69AB1832B744D3871C1A52E4D17E3C">
+					<Item class="Part" referent="RBX4588C4C55D3347E090EBA8E568DBC2A9">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -24552,7 +24552,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX85D9DE3BB1A342CE947D5D535DE31032">
+			<Item class="Part" referent="RBX70EA0293B5B840698FFDD141555E0612">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -24646,7 +24646,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBXC4CAF02C12324652AFCE2BF6EDA19FA9">
+				<Item class="BillboardGui" referent="RBXFC3860C54BCC415D89450201D34BF721">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -24704,7 +24704,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBXE097400827A54A34985BB68F5A7FB535">
+					<Item class="ImageLabel" referent="RBX0CF5EB112123476096EC2832BFC2B1F3">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -24800,7 +24800,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBX0FA4E2A1B4FE456690676CB6A97AC83C">
+			<Item class="SpawnLocation" referent="RBX2CAC25E09E9D417F9D59F6806C197683">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
@@ -24901,7 +24901,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Model" referent="RBX67E8695CD190461FA01943EC44B45595">
+		<Item class="Model" referent="RBX32D33CA93FEC4EC6A4BF4067D78473C8">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<token name="LevelOfDetail">0</token>
@@ -24948,7 +24948,7 @@
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
-			<Item class="Part" referent="RBX815C474581BC427B88FFEFF3100C6469">
+			<Item class="Part" referent="RBXEEAA6D344ACE4710BE0E381A383B950C">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -24980,7 +24980,7 @@
 					<bool name="CastShadow">false</bool>
 					<string name="CollisionGroup">Default</string>
 					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4284177769</Color3uint8>
+					<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
 					<PhysicalProperties name="CustomPhysicalProperties">
 						<CustomPhysics>false</CustomPhysics>
 					</PhysicalProperties>
@@ -24994,7 +24994,7 @@
 					<token name="LeftSurfaceInput">0</token>
 					<bool name="Locked">false</bool>
 					<bool name="Massless">false</bool>
-					<token name="Material">272</token>
+					<token name="Material">800</token>
 					<string name="MaterialVariantSerialized"></string>
 					<string name="Name">BuildArea</string>
 					<CoordinateFrame name="PivotOffset">
@@ -25042,7 +25042,7 @@
 						<Z>200</Z>
 					</Vector3>
 				</Properties>
-				<Item class="Texture" referent="RBX382D385FB9D74B45AE1DD497933D53C5">
+				<Item class="Texture" referent="RBX373B9C039E5B4367894830AD3AF626E9">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<Color3 name="Color3">
@@ -25059,19 +25059,19 @@
 						<float name="StudsPerTileV">8</float>
 						<BinaryString name="Tags"></BinaryString>
 						<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
-						<float name="Transparency">0.800000012</float>
+						<float name="Transparency">1</float>
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX5F491A784D3B4E80AE1D3F8380B8A6A3">
+			<Item class="Folder" referent="RBXD822D4A179534AE3B2F088DF63CA0BBB">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Igloos</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Model" referent="RBX13932B5E02814C3E931E2D6D2DFEBD19">
+				<Item class="Model" referent="RBXD1234411F6ED49D18E580711B4212003">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -25098,7 +25098,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX2A111E81DC9442B8B9336B5C159FB4E5</Ref>
+						<Ref name="PrimaryPart">RBXE89ECD8E52E44AE5A4205A8A98D3B137</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -25118,7 +25118,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBXE1B31A049BF64BF3A31A6020C207C603">
+					<Item class="Model" referent="RBX84B46248AB164DB49E074CCB7A6D7CBC">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -25165,7 +25165,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX473E9811C97D49358483E55A24306B20">
+						<Item class="UnionOperation" referent="RBXA8A57105DB934F08A69A9B3C762C188F">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -25275,7 +25275,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX1AEDF1F0C55C44B39E6DE1494916BAC0">
+						<Item class="UnionOperation" referent="RBXB98924A8D391425396B1AADE46ECD5F9">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -25386,7 +25386,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX43825C5E249A4CBFAE844067971278BF">
+					<Item class="Part" referent="RBXBEAE3C195CDA466DB3EE3865526CADB0">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -25481,7 +25481,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX2A111E81DC9442B8B9336B5C159FB4E5">
+					<Item class="Part" referent="RBXE89ECD8E52E44AE5A4205A8A98D3B137">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -25577,7 +25577,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBX52606336A8634EFC9D30BD63F04C3163">
+				<Item class="Model" referent="RBX10B7CFCD0F924B3E8290D15922AEDE3E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -25604,7 +25604,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX9E9E19751F3343AC92B4199CF9DFBA03</Ref>
+						<Ref name="PrimaryPart">RBX981F231992CA48F0B373582B105103E4</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -25624,7 +25624,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3056C966BDE044638ECB70540FF44585">
+					<Item class="Model" referent="RBX795FA97BF3E34EECAAEADEC66BF984D7">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -25671,7 +25671,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX512A9159D690471EAC1BB5BC546D40D8">
+						<Item class="UnionOperation" referent="RBXDEEF48DEDF7D4EC2851F7410757CFA74">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -25781,7 +25781,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX70405DC9D7E5438AAC3BD8D8007200AA">
+						<Item class="UnionOperation" referent="RBX0F1D007737AA4A4391E9A88E2085180F">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -25892,7 +25892,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX88876F5E94FB4454B3AF3E0BD460A558">
+					<Item class="Part" referent="RBX0069645163E445D69FA7AB6AFFD13185">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -25987,7 +25987,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX9E9E19751F3343AC92B4199CF9DFBA03">
+					<Item class="Part" referent="RBX981F231992CA48F0B373582B105103E4">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -26083,7 +26083,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXBF87B8D25E54432EACC5C097C93A44B2">
+				<Item class="Model" referent="RBX39B7E1FEFDF1433AAA122B4B2A34ACDB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -26110,7 +26110,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXDF106DC0D3224C06BA1051247B0EE361</Ref>
+						<Ref name="PrimaryPart">RBX66BB7462A0E94E3EB80A660D3FC3482A</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -26130,7 +26130,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX8B653FBF276D49A6A8CD834E53B62F96">
+					<Item class="Model" referent="RBX18389E6FA8B14887A40634DB9DEF4037">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -26177,7 +26177,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX7069A2B43DCD400FAF7E72AAC76A12AE">
+						<Item class="UnionOperation" referent="RBXD97BBF769D1249ED98E3D1CDADD799B0">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -26287,7 +26287,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX5226C58471784F919665E8A6DCC8E221">
+						<Item class="UnionOperation" referent="RBXF51642E4FAAC4324B2BF35AFC7DFAC0B">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -26398,7 +26398,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX94B1C2678E524F39871C41C5B07AA97B">
+					<Item class="Part" referent="RBX165BF696F2FF4D47B33F385184F82418">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -26493,7 +26493,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXDF106DC0D3224C06BA1051247B0EE361">
+					<Item class="Part" referent="RBX66BB7462A0E94E3EB80A660D3FC3482A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -26589,7 +26589,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXFE134353681E4ACA958D84C705C28C90">
+				<Item class="Model" referent="RBX8DBD83E1E3504632833ABAF8C2C76F96">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -26616,7 +26616,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXD77269954A854998B53F7DCE9C30EC7C</Ref>
+						<Ref name="PrimaryPart">RBX72C597AD0FB0415C961213EB415E2D5D</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -26636,7 +26636,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX3B841AE45B934365A7F48107CC710366">
+					<Item class="Model" referent="RBXEB05D184031F40D2845480CBA1E694AD">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -26683,7 +26683,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXB19EAD301D724A4488EA0CA055117E1B">
+						<Item class="UnionOperation" referent="RBX316E01FA9E5049E5A07D03FE563E7DF6">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -26793,7 +26793,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX5D81B2D7BF9444AD81E8F0D8CE88695C">
+						<Item class="UnionOperation" referent="RBXCBEF0465E7704B1BACBD988500CF503E">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -26904,7 +26904,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX892C939032674E6C946777A37EBDC41C">
+					<Item class="Part" referent="RBX43E276964BC94578BC46E0B22402460A">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -26999,7 +26999,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXD77269954A854998B53F7DCE9C30EC7C">
+					<Item class="Part" referent="RBX72C597AD0FB0415C961213EB415E2D5D">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -27095,7 +27095,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXF10B4639C3084CB4B65B959B58337C29">
+				<Item class="Model" referent="RBXEF2D16826754480FAC9722E0C96867BF">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -27122,7 +27122,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBXAD0D0FB0B73C432EAF586CFB49F6CCC2</Ref>
+						<Ref name="PrimaryPart">RBXAF3F8AF2CC2247ADB0615CA2BD4721AF</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -27142,7 +27142,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX4779DC737B584798AB91FF83B85AAE83">
+					<Item class="Model" referent="RBX85FCB366B77A4DA485B0EE131996785C">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -27189,7 +27189,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBX4CEEA2C34B0041D2995ABBC15154861A">
+						<Item class="UnionOperation" referent="RBXD3CE36DD2ED745EF9B099A785F8A40AE">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -27299,7 +27299,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBX463A13ED2905487099C495A83B0E6083">
+						<Item class="UnionOperation" referent="RBX4F24A2CC039148A6A209777A488D97DF">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -27410,7 +27410,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBXE7B327A62058404F9CC1B9419FF02447">
+					<Item class="Part" referent="RBX0FA316B2B04A4D04B0D79EFB0829CD66">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -27505,7 +27505,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBXAD0D0FB0B73C432EAF586CFB49F6CCC2">
+					<Item class="Part" referent="RBXAF3F8AF2CC2247ADB0615CA2BD4721AF">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -27601,7 +27601,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Model" referent="RBXE75148CDBFD3474284B1C4413567841E">
+				<Item class="Model" referent="RBX64EAD768B9A040C8A0AF4FC9CB34FAD1">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -27628,7 +27628,7 @@
 						<token name="ModelStreamingMode">0</token>
 						<string name="Name">Igloo</string>
 						<bool name="NeedsPivotMigration">false</bool>
-						<Ref name="PrimaryPart">RBX2FA537CF8807480E81B31CB864BB01C0</Ref>
+						<Ref name="PrimaryPart">RBX5EE266062924477089E0659F1EA3A440</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 						<OptionalCoordinateFrame name="WorldPivotData">
@@ -27648,7 +27648,7 @@
 							</CFrame>
 						</OptionalCoordinateFrame>
 					</Properties>
-					<Item class="Model" referent="RBX02A9212D02294B828B1DE2C5269E2476">
+					<Item class="Model" referent="RBX6F345C43856E4B1394CD2719B6AE7393">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<token name="LevelOfDetail">0</token>
@@ -27695,7 +27695,7 @@
 								</CFrame>
 							</OptionalCoordinateFrame>
 						</Properties>
-						<Item class="UnionOperation" referent="RBXED813136A2F14672835EC676CF54E904">
+						<Item class="UnionOperation" referent="RBXB110ED3D94674732A48BE372FC56D785">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
@@ -27805,7 +27805,7 @@
 								</Vector3>
 							</Properties>
 						</Item>
-						<Item class="UnionOperation" referent="RBXA61DF149A113441DA1B20C46A7A73C34">
+						<Item class="UnionOperation" referent="RBX27CE6C9D5C1645029A9DCFDEC32EECA9">
 							<Properties>
 								<bool name="Anchored">true</bool>
 								<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
@@ -27916,7 +27916,7 @@
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="Part" referent="RBX658816ADA5D841E190AFC9215ECF090D">
+					<Item class="Part" referent="RBX3D91AC0D6DEE450BABFF4CC4873CCB88">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -28011,7 +28011,7 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="Part" referent="RBX2FA537CF8807480E81B31CB864BB01C0">
+					<Item class="Part" referent="RBX5EE266062924477089E0659F1EA3A440">
 						<Properties>
 							<bool name="Anchored">true</bool>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -28108,7 +28108,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="Part" referent="RBX82A393274FEC4E439A613CACE800BEED">
+			<Item class="Part" referent="RBX195C7A45FB6749F59972C56F7DC4A65E">
 				<Properties>
 					<bool name="Anchored">true</bool>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -28202,7 +28202,7 @@
 						<Z>1</Z>
 					</Vector3>
 				</Properties>
-				<Item class="BillboardGui" referent="RBX7D19A3EB6F624299B9918083BD651185">
+				<Item class="BillboardGui" referent="RBX0C2DC06CF2C24A66B3B5B6A0B5E071F1">
 					<Properties>
 						<bool name="Active">true</bool>
 						<Ref name="Adornee">null</Ref>
@@ -28260,7 +28260,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<token name="ZIndexBehavior">1</token>
 					</Properties>
-					<Item class="ImageLabel" referent="RBX4A83CE74591943AA91CB774293993AB6">
+					<Item class="ImageLabel" referent="RBXEFF0E59430DA46B391372F1813EB6F77">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -28356,7 +28356,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SpawnLocation" referent="RBXA5266773B740475A9AF14BA0C00BABB8">
+			<Item class="SpawnLocation" referent="RBX5AD2752F59274E049D90E869A82A94F3">
 				<Properties>
 					<bool name="AllowTeamChangeOnTouch">false</bool>
 					<bool name="Anchored">true</bool>
