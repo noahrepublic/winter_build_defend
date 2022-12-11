@@ -1,16 +1,15 @@
 --# selene: allow(unused_variable)
-
 -- @title: Interface.lua
--- @author: qweekertom
--- @date: 2022-12-09
-
--- placeholder to keep the folder alive
+-- @author: noahrepublic, qweekertom
+-- @date: 2022-12-10
 
 --> Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
+
+local Fusion = loader.Load("Fusion")
 
 --> Module Definition
 local module = {}
@@ -23,8 +22,6 @@ local SETTINGS = {}
 --> Module Functions
 
 --> Loader Methods
-function module.Start()
-	print("Hello world!")
-end
+function module.Start() end
 
 return module
