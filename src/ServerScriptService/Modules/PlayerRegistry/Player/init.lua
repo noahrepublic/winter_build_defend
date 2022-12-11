@@ -37,7 +37,7 @@ local function init(self)
 		profile:AddUserId(player.UserId)
 		profile:Reconcile() -- rebuild
 
-		self._soap_bar:Add(profile:ListenToRelease(function()
+		self.Maid:GiveTask(profile:ListenToRelease(function()
 			player:Kick()
 		end))
 
@@ -62,7 +62,7 @@ function Player.new(plr: Player)
 end
 
 function Player:Disconnect()
-	self._soap_bar:Scrub() -- Disconnect everything
+	self.Maid:DoCleaning() -- Disconnect everything
 	self.Profile:Release()
 	self.Player:Kick() -- kick incase it was a custom :Disconnect() call
 end
