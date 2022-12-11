@@ -48,6 +48,11 @@ end
 
 function generateFusionInterface()
 	local enabled = Fusion.State(false)
+	local currentBlock = Fusion.State("None")
+
+	Computed(function()
+		print(currentBlock:get())
+	end)
 
 	local gui = Fusion.New("ScreenGui")({
 		Parent = playerGui,
@@ -132,6 +137,13 @@ function generateFusionInterface()
 								Size = UDim2.new(1, 0, 1, 0),
 								SizeConstraint = Enum.SizeConstraint.RelativeYY,
 								Text = "Concrete",
+								BackgroundTransparency = 0,
+								BackgroundColor3 = Color3.fromRGB(210, 210, 210),
+								AutoButtonColor = true,
+
+								[Fusion.OnEvent("Activated")] = function()
+									currentBlock:set("Concrete")
+								end,
 							}),
 						},
 					}),
