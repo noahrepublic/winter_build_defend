@@ -1,15 +1,12 @@
---# selene: allow(unused_variable)
 -- @title: Interface.lua
 -- @author: noahrepublic, qweekertom
--- @date: 2022-12-10
+-- @date: 2022-12-11
 
 --> Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
-
-local Fusion = loader.Load("Fusion")
 
 --> Module Definition
 local module = {}
