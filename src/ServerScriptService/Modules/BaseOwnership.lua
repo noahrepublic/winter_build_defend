@@ -22,6 +22,7 @@ local ServerStorage = game:GetService("ServerStorage")
 
 --> Module Definition
 local BaseOwnership = {}
+local InitializedPlayers = {}
 --local SETTINGS = {}
 
 --> Variables
@@ -31,8 +32,6 @@ local plotFolder = game.Workspace.Plots:GetChildren()
 local ownedPlots = {}
 
 --> Private Functions
-
---> Module Functions
 function initializePlots()
 	local plotBase = ServerStorage.Resources.BasePlot
 	for _, plotLocation in workspace.Plots:GetChildren() do
@@ -43,27 +42,35 @@ function initializePlots()
 	end
 end
 
+function playerAdded(player: Player)
+	--local player_class = PlayerRegistry.GetPlayer(player)
+	InitializedPlayers[player] = true
+
+	local selectedPlot = plotFolder[1]
+	table.remove(plotFolder, 1)
+
+	selectedPlot:SetAttribute("Owner", player.UserId)
+	ownedPlots[player.UserId] = selectedPlot
+	CollectionService:AddTag(selectedPlot, "Base")
+end
+
+--> Module Functions
+
 --> Loader Methods
 function BaseOwnership.Start()
 	initializePlots()
 
-	Players.PlayerAdded:Connect(function(player)
-		--local player_class = PlayerRegistry.GetPlayer(player)
-
-		local selectedPlot = plotFolder[1]
-		table.remove(plotFolder, 1)
-
-		selectedPlot:SetAttribute("Owner", player.UserId)
-		ownedPlots[player.UserId] = selectedPlot
-		CollectionService:AddTag(selectedPlot, "Base")
-	end)
-
+	Players.PlayerAdded:Connect(playerAdded)
 	Players.PlayerRemoving:Connect(function(player)
 		local plot = ownedPlots[player.UserId]
 
 		CollectionService:RemoveTag(plot, "Base")
 		ownedPlots[player.UserId] = nil
 	end)
+
+	for _, player in Players:GetPlayers() do
+		playerAdded(player)
+	end
 end
 
 return BaseOwnership
