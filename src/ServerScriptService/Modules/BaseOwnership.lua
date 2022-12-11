@@ -35,8 +35,6 @@ local ownedPlots = {}
 
 --> Loader Methods
 function module.Start()
-	print("Tycoon Module Started")
-
 	Players.PlayerAdded:Connect(function(player)
 		--local player_class = PlayerRegistry.GetPlayer(player)
 
@@ -53,8 +51,6 @@ function module.Start()
 
 		CollectionService:RemoveTag(plot, "Base")
 		ownedPlots[player.UserId] = nil
-
-		print("Removed " .. player.Name .. "'s base!")
 	end)
 end
 
