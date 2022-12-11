@@ -12,16 +12,16 @@
 
 local CollectionService = game:GetService("CollectionService")
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+--local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
-local loader = require(ReplicatedStorage.Loader)
+--local loader = require(ReplicatedStorage.Loader)
 
-local PlayerRegistry = loader.Get("PlayerRegistry")
+--local PlayerRegistry = loader.Get("PlayerRegistry")
 
 --> Module Definition
 local module = {}
-local SETTINGS = {}
+--local SETTINGS = {}
 
 --> Variables
 
