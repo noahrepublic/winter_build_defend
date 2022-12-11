@@ -28,11 +28,12 @@ local playerGui
 
 --> Private Functions
 function getMyPlot()
-	for _, plot in workspace.Plots:GetChildren() do
+	--[[for _, plot in workspace.Plots:GetChildren() do
 		if plot:GetAttribute("Owner") == Players.LocalPlayer.UserId then
 			return plot
 		end
-	end
+	end]]
+	return game.Workspace.Plots:FindFirstChild(player.Name)
 end
 
 function setGridTransparency(transparency: number)
