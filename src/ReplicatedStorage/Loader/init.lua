@@ -59,7 +59,13 @@ function backend.Init(m)
 		return
 	end
 
-	backend.modules[m.Name] = require(m)
+	local success, err = pcall(function()
+		backend.modules[m.Name] = require(m)
+	end)
+
+	if not success then
+		warn(m.Name .. " errored while loading! " .. err)
+	end
 
 	local group = m:GetAttribute(SETTINGS.GroupAttributeName)
 	if group then
