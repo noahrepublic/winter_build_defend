@@ -21,7 +21,7 @@ local ServerStorage = game:GetService("ServerStorage")
 --local PlayerRegistry = loader.Get("PlayerRegistry")
 
 --> Module Definition
-local module = {}
+local BaseOwnership = {}
 --local SETTINGS = {}
 
 --> Variables
@@ -45,8 +45,6 @@ end
 
 --> Loader Methods
 function module.Start()
-	initializePlots()
-
 	Players.PlayerAdded:Connect(function(player)
 		--local player_class = PlayerRegistry.GetPlayer(player)
 
@@ -66,4 +64,4 @@ function module.Start()
 	end)
 end
 
-return module
+return BaseOwnership
