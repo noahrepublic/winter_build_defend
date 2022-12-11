@@ -1,3 +1,4 @@
+--# selene: allow(undefined_variable)
 --[[
 	Manages batch updating of spring objects.
 ]]
@@ -15,19 +16,19 @@ type Spring = {
 	_speed: number,
 	_damping: number,
 
-	_springPositions: {number},
-	_springGoals: {number},
-	_springVelocities: {number}
+	_springPositions: { number },
+	_springGoals: { number },
+	_springVelocities: { number },
 }
 
-local WEAK_KEYS_METATABLE = {__mode = "k"}
+local WEAK_KEYS_METATABLE = { __mode = "k" }
 
 -- when a spring has displacement and velocity below +/- epsilon, the spring
 -- won't send updates
 local MOVEMENT_EPSILON = 0.0001
 
 -- organises springs by speed and damping, for batch processing
-local springBuckets: {[number]: {[number]: Types.Set<Spring>}} = {}
+local springBuckets: { [number]: { [number]: Types.Set<Spring> } } = {}
 
 --[[
 	Adds a Spring to be updated every render step.
@@ -40,7 +41,7 @@ function SpringScheduler.add(spring: Spring)
 
 	if dampingBucket == nil then
 		springBuckets[damping] = {
-			[speed] = setmetatable({[spring] = true}, WEAK_KEYS_METATABLE)
+			[speed] = setmetatable({ [spring] = true }, WEAK_KEYS_METATABLE),
 		}
 		return
 	end
@@ -48,7 +49,7 @@ function SpringScheduler.add(spring: Spring)
 	local speedBucket = dampingBucket[speed]
 
 	if speedBucket == nil then
-		dampingBucket[speed] = setmetatable({[spring] = true}, WEAK_KEYS_METATABLE)
+		dampingBucket[speed] = setmetatable({ [spring] = true }, WEAK_KEYS_METATABLE)
 		return
 	end
 
@@ -101,10 +102,7 @@ local function updateAllSprings(timeStep: number)
 					local newDisplacement = oldDisplacement * posPosCoef + oldVelocity * posVelCoef
 					local newVelocity = oldDisplacement * velPosCoef + oldVelocity * velVelCoef
 
-					if
-						math.abs(newDisplacement) > MOVEMENT_EPSILON or
-						math.abs(newVelocity) > MOVEMENT_EPSILON
-					then
+					if math.abs(newDisplacement) > MOVEMENT_EPSILON or math.abs(newVelocity) > MOVEMENT_EPSILON then
 						isMoving = true
 					end
 
@@ -125,10 +123,6 @@ local function updateAllSprings(timeStep: number)
 	end
 end
 
-RunService:BindToRenderStep(
-	"__FusionSpringScheduler",
-	Enum.RenderPriority.First.Value,
-	updateAllSprings
-)
+RunService:BindToRenderStep("__FusionSpringScheduler", Enum.RenderPriority.First.Value, updateAllSprings)
 
 return SpringScheduler

@@ -1,3 +1,4 @@
+--# selene: allow(undefined_variable)
 --[[
 	Constructs a new state object, which exposes compatibility APIs for
 	integrating with non-reactive code.
@@ -7,7 +8,7 @@ local Package = script.Parent.Parent
 local initDependency = require(Package.Dependencies.initDependency)
 
 local class = {}
-local CLASS_METATABLE = {__index = class}
+local CLASS_METATABLE = { __index = class }
 
 -- Table used to hold Compat objects in memory.
 local strongRefs = {}
@@ -57,10 +58,10 @@ local function Compat(watchedState: Types.State<any>)
 	local self = setmetatable({
 		type = "State",
 		kind = "Compat",
-		dependencySet = {[watchedState] = true},
+		dependencySet = { [watchedState] = true },
 		dependentSet = {},
 		_changeListeners = {},
-		_numChangeListeners = 0
+		_numChangeListeners = 0,
 	}, CLASS_METATABLE)
 
 	initDependency(self)
