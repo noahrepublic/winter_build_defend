@@ -4,8 +4,6 @@
 
 --> Services
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
 --> Settings
 local SETTINGS = {
 	Tag = "Base",
