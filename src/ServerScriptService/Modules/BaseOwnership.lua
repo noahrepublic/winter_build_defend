@@ -44,7 +44,9 @@ function initializePlots()
 end
 
 --> Loader Methods
-function module.Start()
+function BaseOwnership.Start()
+	initializePlots()
+
 	Players.PlayerAdded:Connect(function(player)
 		--local player_class = PlayerRegistry.GetPlayer(player)
 
