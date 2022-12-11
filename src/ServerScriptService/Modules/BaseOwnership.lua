@@ -13,10 +13,10 @@
 local CollectionService = game:GetService("CollectionService")
 local Players = game:GetService("Players")
 local ServerStorage = game:GetService("ServerStorage")
---local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
---local loader = require(ReplicatedStorage.Loader)
+local loader = require(ReplicatedStorage.Loader)
 
 --local PlayerRegistry = loader.Get("PlayerRegistry")
 
@@ -37,13 +37,17 @@ function initializePlots()
 	for _, plotLocation in workspace.Plots:GetChildren() do
 		local clone = plotBase:Clone()
 		clone:PivotTo(plotLocation.CFrame)
-		clone.Parent = workspace.Plots
 		plotLocation:Destroy()
+		clone.Parent = workspace.Plots
 	end
 end
 
 function playerAdded(player: Player)
 	--local player_class = PlayerRegistry.GetPlayer(player)
+	if InitializedPlayers[player] then
+		loader.log.Warn(script, "Player: " .. player.Name .. " has already been loaded")
+		return
+	end
 	InitializedPlayers[player] = true
 
 	local selectedPlot = plotFolder[1]

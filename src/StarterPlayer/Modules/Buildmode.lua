@@ -27,30 +27,26 @@ local player = Players.LocalPlayer
 local playerGui
 
 --> Private Functions
+function getMyPlot()
+	for _, plot in workspace.Plots:GetChildren() do
+		if plot:GetAttribute("Owner") == Players.LocalPlayer.UserId then
+			return plot
+		end
+	end
+end
+
 function setGridTransparency(transparency: number)
-	local base = game.Workspace.Plots:FindFirstChild(player.Name)
+	local base = getMyPlot()
+	if base == nil then
+		loader.log.Warn(script, "Failed to find a plot to build on!")
+		return
+	end
+
 	local texture = base.BuildArea.Texture
 	TweenService:Create(texture, SETTINGS.TweenInfo, { ["Transparency"] = transparency }):Play()
 end
 
---> Buildmode Functions
-
-function Buildmode.Activate()
-	-- Open the buildmode menu
-	-- Turn on build grid
-	setGridTransparency(0.5)
-end
-
-function Buildmode.Deactivate()
-	setGridTransparency(1)
-end
-
---> Loader Methods
-function Buildmode.Start()
-	if not playerGui then
-		playerGui = player.PlayerGui
-	end
-
+function generateFusionInterface()
 	local enabled = Fusion.State(false)
 
 	local gui = Fusion.New("ScreenGui")({
@@ -117,11 +113,53 @@ function Buildmode.Start()
 						ScrollingDirection = Enum.ScrollingDirection.X,
 						AutomaticSize = Enum.AutomaticSize.X,
 						CanvasSize = UDim2.new(0, 0, 0, 0),
+
+						[Children] = {
+							Fusion.New("UIListLayout")({
+								FillDirection = Enum.FillDirection.Horizontal,
+								VerticalAlignment = Enum.VerticalAlignment.Center,
+								HorizontalAlignment = Enum.HorizontalAlignment.Left,
+								Padding = UDim.new(0, 5),
+							}),
+							Fusion.New("UIPadding")({
+								PaddingLeft = UDim.new(0, 5),
+								PaddingTop = UDim.new(0, 5),
+								PaddingBottom = UDim.new(0, 5),
+								PaddingRight = UDim.new(0, 5),
+							}),
+							Fusion.New("TextButton")({
+								Name = "Concrete",
+								Size = UDim2.new(1, 0, 1, 0),
+								SizeConstraint = Enum.SizeConstraint.RelativeYY,
+								Text = "Concrete",
+							}),
+						},
 					}),
 				},
 			}),
 		},
 	})
+end
+
+--> Buildmode Functions
+
+function Buildmode.Activate()
+	-- Open the buildmode menu
+	-- Turn on build grid
+	setGridTransparency(0.5)
+end
+
+function Buildmode.Deactivate()
+	setGridTransparency(1)
+end
+
+--> Loader Methods
+function Buildmode.Start()
+	if not playerGui then
+		playerGui = player.PlayerGui
+	end
+
+	generateFusionInterface()
 end
 
 return Buildmode
