@@ -23,7 +23,7 @@ local Remotes = ReplicatedStorage.Remotes
 local BuildablesFolder = ReplicatedStorage.Resources.Buildables
 
 local PlacementEvent = Remotes.Placement
-
+local PlotsFolder = game.Workspace.Plots
 --> Private Functions
 
 local function getBuildFromName(buildName: string)
@@ -38,7 +38,7 @@ local function buildRequest(player: Player, buildData: table)
 	local location = buildData.Location
 	local rotation = buildData.Rotation
 
-	local base = game.Workspace:FindFirstChild(player.Name)
+	local base = PlotsFolder:FindFirstChild(player.Name)
 
 	if #base.Builds:GetChildren() >= SETTINGS.MAX_BUILDS then
 		return
@@ -54,7 +54,7 @@ local function buildRequest(player: Player, buildData: table)
 		newBuild.CFrame = location * CFrame.Angles(0, rotation, 0)
 		newBuild.Anchored = true
 		newBuild.Parent = base.Builds
-		CollectionService:AddTag(newBuild, "Build")
+		CollectionService:AddTag(newBuild, "Buildable")
 	end
 end
 
