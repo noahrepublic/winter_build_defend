@@ -20,7 +20,6 @@ function Base.new(instance: Instance)
 	local self = setmetatable({
 		["_initialized"] = false,
 		["Instance"] = instance,
-		["Base"] = instance,
 		["Owner"] = instance:GetAttribute("Owner"),
 	}, Base)
 
@@ -34,7 +33,7 @@ function Base:_init()
 	end
 	self._initialized = true
 
-	local base = self.Base
+	local base = self.Instance
 	local player = Players:GetPlayerByUserId(self.Owner)
 
 	-- Claim ownership
@@ -56,7 +55,7 @@ function Base:_init()
 end
 
 function Base:Clean()
-	local base = self.Base
+	local base = self.Instance
 
 	base.Name = "Plot"
 	local baseIcon = base.PlayerIcon.BillboardGui.Icon
