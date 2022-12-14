@@ -27,18 +27,18 @@ function Buildable.new(instance: Instance)
 		["Maid"] = loader.Maid(),
 	}, Buildable)
 
+	print("New Buildable", instance)
 	self:_init()
 	return self
 end
 
 function Buildable:_init()
 	if self._initialized == true then
-		print("Returned?")
 		return
 	end
 	self._initialized = true
 
-	self.Transparency = 0
+	self.Instance.Transparency = 0
 
 	if self.Instance:GetAttribute("Attack") == nil then
 		self.Instance:SetAttribute("Attack", false)
@@ -50,7 +50,9 @@ function Buildable:_init()
 end
 
 function Buildable:Clean()
+	print("Cleaning Buildable")
 	self.Maid:DoCleaning()
+
 	local health = 0
 	if self.Instance:GetAttribute("Health") then
 		local oldHealth = self.Instance:GetAttribute("Health")
