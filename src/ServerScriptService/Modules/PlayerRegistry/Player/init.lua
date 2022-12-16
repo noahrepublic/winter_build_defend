@@ -8,11 +8,13 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Variables --
 
-local Data_Template = require(script.DataTemplate)
+local DataTemplate = require(script.DataTemplate)
 local ProfileService = require(script.ProfileService)
 local Loader = require(ReplicatedStorage.Loader)
 
-local DataStore = ProfileService.GetProfileStore("DevelopmentData", Data_Template)
+local Signal = Loader.GetUtil("Signal")
+
+local DataStore = ProfileService.GetProfileStore("DevelopmentData", DataTemplate)
 
 local Player = {}
 Player.__index = Player
@@ -25,6 +27,7 @@ local function init(self)
 	local player = self.Player
 
 	self.Maid = Loader.Maid()
+	self.Maid:GiveTask(self.Loaded)
 
 	do
 		local profile = DataStore:LoadProfileAsync("Player_" .. player.UserId, "ForceLoad")
@@ -49,6 +52,7 @@ local function init(self)
 
 		self.Data = profile.Data
 		self.Profile = profile
+		self.Loaded:Fire()
 	end
 end
 
@@ -57,8 +61,12 @@ function Player.new(plr: Player)
 	local player_class = setmetatable({}, Player)
 	player_class.Player = plr
 	player_class.Attributes = {}
-	init(player_class)
+	player_class.Loaded = Signal.new()
 	return player_class
+end
+
+function Player:Load()
+	init(self)
 end
 
 function Player:Disconnect()
