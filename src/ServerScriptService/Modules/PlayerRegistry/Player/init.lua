@@ -12,8 +12,6 @@ local DataTemplate = require(script.DataTemplate)
 local ProfileService = require(script.ProfileService)
 local Loader = require(ReplicatedStorage.Loader)
 
-local Signal = Loader.GetUtil("Signal")
-
 local DataStore = ProfileService.GetProfileStore("DevelopmentData", DataTemplate)
 
 local Player = {}

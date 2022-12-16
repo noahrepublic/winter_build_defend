@@ -3,13 +3,12 @@
 -- @date: 2022-12-10
 
 --> Services
-local PlayerService = game:GetService("Players")
 --local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 --local loader = require(ReplicatedStorage.Loader)
 local Player = require(script.Player)
-local CurrencyService = require(script.Parent.LoaderIgnore.Currency)
+require(script.Parent.LoaderIgnore.Currency)
 
 --> Module Definition
 local PlayerRegistry = {}
