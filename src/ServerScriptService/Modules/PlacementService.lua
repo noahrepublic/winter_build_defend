@@ -9,6 +9,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
+local BuildableSettings = ReplicatedStorage.Shared.BuildableSettings -- Contains different attributes for each buildable (cost, health)
+local CurrencyService
 
 --> Module Definition
 local module = {}
@@ -48,6 +50,11 @@ local function buildRequest(player: Player, buildData: table)
 		return
 	end
 
+	if not CurrencyService.Purchase(player, require(BuildableSettings:FindFirstAncestor(buildType)).Cost, "Coins") then
+		print("Not enough coins")
+		return
+	end
+
 	local build = getBuildFromName(buildType)
 	if build then
 		local newBuild = build:Clone()
@@ -64,6 +71,7 @@ end
 function module.Start()
 	-- Incorroporate Currency Service
 
+	CurrencyService = loader.Get("Currency")
 	PlacementEvent.OnServerEvent:Connect(buildRequest)
 end
 
