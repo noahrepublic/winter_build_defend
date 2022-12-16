@@ -8,7 +8,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
-local PlayerRegistry
+local PlayerRegistry = loader.Get("PlayerRegistry")
 
 --> Module Definition
 local Currency = {}
@@ -55,14 +55,13 @@ end
 
 --> Loader Methods
 function Currency.Start()
-	PlayerRegistry = loader.Get("PlayerRegistry")
 	Players.PlayerAdded:Connect(function(player)
 		local playerClass = PlayerRegistry.GetPlayer(player)
-		playerClass.Loaded:Connect(function()
+		playerClass.Maid:GiveTask(playerClass.Loaded:Connect(function()
 			local playerData = PlayerRegistry.GetPlayer(player).Data
 			player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
 			player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
-		end)
+		end))
 	end)
 end
 
