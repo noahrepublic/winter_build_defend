@@ -8,7 +8,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
-local PlayerRegistry = loader.Get("PlayerRegistry")
+local PlayerRegistry
+print(PlayerRegistry)
 
 --> Module Definition
 local Currency = {}
@@ -56,6 +57,7 @@ end
 --> Loader Methods
 
 function Currency.Start()
+	PlayerRegistry = loader.Get("PlayerRegistry")
 	Players.PlayerAdded:Connect(function(player)
 		local playerClass = PlayerRegistry.AddPlayer(player)
 		playerClass.Maid:GiveTask(playerClass.onLoad:Connect(function()
