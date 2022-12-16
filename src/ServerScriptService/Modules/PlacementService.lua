@@ -8,7 +8,7 @@ local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
-local loader = require(ReplicatedStorage.Loader)
+--local loader = require(ReplicatedStorage.Loader)
 local BuildableSettings = ReplicatedStorage.Shared.BuildableSettings -- Contains different attributes for each buildable (cost, health)
 local CurrencyService = require(script.Parent.LoaderIgnore.Currency)
 
@@ -50,8 +50,12 @@ local function buildRequest(player: Player, buildData: table)
 		return
 	end
 
-	if not CurrencyService.Purchase(player, require(BuildableSettings:FindFirstAncestor(buildType)).Cost, "Coins") then
-		print("Not enough coins")
+	if
+		not BuildableSettings:FindFirstChild(buildType)
+		or not CurrencyService.Purchase(player, require(BuildableSettings:FindFirstChild(buildType)).Cost, "Coins")
+	then
+		warn("Not enough coins")
+		PlacementEvent:FireClient(player, "Not enough coins")
 		return
 	end
 
