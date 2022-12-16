@@ -25,10 +25,6 @@ local Players = {}
 function PlayerRegistry.AddPlayer(plr: Player)
 	assert(plr ~= nil, "Passed player value is nil!")
 
-	if Players[plr] ~= nil then
-		return Players[plr]
-	end
-
 	local player_class = Player.new(plr)
 	Players[plr] = player_class
 	return player_class
@@ -37,9 +33,6 @@ end
 function PlayerRegistry.GetPlayer(plr: Player)
 	assert(plr ~= nil, "Passed player value is nil!")
 
-	if Players[plr] == nil then
-		return PlayerRegistry.AddPlayer(plr)
-	end
 	return Players[plr]
 end
 
@@ -56,7 +49,7 @@ PlayerRegistry.Disconnect = PlayerRegistry.RemovePlayer
 --> Loader Methods
 function PlayerRegistry.Start()
 	PlayerService.PlayerAdded:Connect(function(plr)
-		PlayerRegistry.AddPlayer(plr)
+		PlayerRegistry.AddPlayer(plr):Load()
 	end)
 
 	PlayerService.PlayerRemoving:Connect(function(plr)
