@@ -24,6 +24,9 @@ local Players = {}
 
 function PlayerRegistry.AddPlayer(plr: Player)
 	assert(plr ~= nil, "Passed player value is nil!")
+	if Players[plr] and Players[plr].Loaded then
+		return Players[plr]
+	end
 
 	local player_class = Player.new(plr)
 	Players[plr] = player_class
