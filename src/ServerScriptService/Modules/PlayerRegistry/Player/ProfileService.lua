@@ -1,3 +1,4 @@
+--# selene: allow(shadowing)
 -- local Madwork = _G.Madwork
 --[[
 {Madwork}
@@ -803,7 +804,7 @@ local function StandardProfileUpdateAsyncDataStore(
 					if is_get_call == true then
 						local get_data, get_key_info
 						if version ~= nil then
-							success, error_message = pcall(function()
+							local success, error_message = pcall(function()
 								get_data, get_key_info =
 									profile_store._global_data_store:GetVersionAsync(profile_key, version)
 							end)
@@ -2291,23 +2292,19 @@ function ProfileService.GetProfileStore(profile_store_index, profile_template) -
 	}
 	setmetatable(profile_store, ProfileStore)
 
-	local options = Instance.new("DataStoreOptions")
-	options:SetExperimentalFeatures({ v2 = true })
-
 	if IsLiveCheckActive == true then
 		profile_store._is_pending = true
 		task.spawn(function()
 			WaitForLiveAccessCheck()
 			if UseMockDataStore == false then
 				profile_store._global_data_store =
-					DataStoreService:GetDataStore(profile_store_name, profile_store_scope, options)
+					DataStoreService:GetDataStore(profile_store_name, profile_store_scope)
 			end
 			profile_store._is_pending = false
 		end)
 	else
 		if UseMockDataStore == false then
-			profile_store._global_data_store =
-				DataStoreService:GetDataStore(profile_store_name, profile_store_scope, options)
+			profile_store._global_data_store = DataStoreService:GetDataStore(profile_store_name, profile_store_scope)
 		end
 	end
 
