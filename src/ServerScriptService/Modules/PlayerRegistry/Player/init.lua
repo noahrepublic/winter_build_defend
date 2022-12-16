@@ -68,11 +68,8 @@ function Player.new(plr: Player)
 	player_class.Attributes = {}
 	player_class.Loaded = false
 	player_class.onLoad = Signal.new()
+	init(player_class)
 	return player_class
-end
-
-function Player:Load()
-	init(self)
 end
 
 function Player:Disconnect()

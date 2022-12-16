@@ -60,11 +60,9 @@ function Currency.Start()
 	PlayerRegistry = loader.Get("PlayerRegistry")
 	Players.PlayerAdded:Connect(function(player)
 		local playerClass = PlayerRegistry.AddPlayer(player)
-		playerClass.onLoad:Once(function()
-			local playerData = playerClass.Data
-			player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
-			player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
-		end)
+		local playerData = playerClass.Data
+		player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
+		player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
 	end)
 end
 
