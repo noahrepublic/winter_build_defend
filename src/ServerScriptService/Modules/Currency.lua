@@ -54,11 +54,12 @@ function Currency.Purchase(player: Player, cost: number, currencyType: string)
 end
 
 --> Loader Methods
+
 function Currency.Start()
 	Players.PlayerAdded:Connect(function(player)
-		local playerClass = PlayerRegistry.GetPlayer(player)
-		playerClass.Maid:GiveTask(playerClass.Loaded:Connect(function()
-			local playerData = PlayerRegistry.GetPlayer(player).Data
+		local playerClass = PlayerRegistry.AddPlayer(player)
+		playerClass.Maid:GiveTask(playerClass.onLoad:Connect(function()
+			local playerData = playerClass.Data
 			player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
 			player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
 		end))
