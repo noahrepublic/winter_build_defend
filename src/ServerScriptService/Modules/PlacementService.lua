@@ -10,7 +10,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
 local BuildableSettings = ReplicatedStorage.Shared.BuildableSettings -- Contains different attributes for each buildable (cost, health)
-local CurrencyService
+local CurrencyService = require(script.Parent.LoaderIgnore.Currency)
 
 --> Module Definition
 local module = {}
@@ -69,9 +69,7 @@ end
 
 --> Loader Methods
 function module.Start()
-	-- Incorroporate Currency Service
-
-	CurrencyService = loader.Get("Currency")
+	-- Implement Currency Service
 	PlacementEvent.OnServerEvent:Connect(buildRequest)
 end
 

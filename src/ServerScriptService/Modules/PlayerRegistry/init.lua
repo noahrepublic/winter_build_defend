@@ -9,6 +9,7 @@ local PlayerService = game:GetService("Players")
 --> Loader, Modules, and Util
 --local loader = require(ReplicatedStorage.Loader)
 local Player = require(script.Player)
+local CurrencyService = require(script.Parent.LoaderIgnore.Currency)
 
 --> Module Definition
 local PlayerRegistry = {}
@@ -50,14 +51,5 @@ end
 PlayerRegistry.Disconnect = PlayerRegistry.RemovePlayer
 
 --> Loader Methods
-function PlayerRegistry.Start()
-	PlayerService.PlayerAdded:Connect(function(plr)
-		PlayerRegistry.AddPlayer(plr):Load()
-	end)
-
-	PlayerService.PlayerRemoving:Connect(function(plr)
-		PlayerRegistry.RemovePlayer(plr)
-	end)
-end
 
 return PlayerRegistry

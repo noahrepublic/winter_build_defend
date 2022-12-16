@@ -26,11 +26,6 @@ Player.__index = Player
 local function init(self)
 	local player = self.Player
 
-	if self.Loaded then
-		return
-	end
-
-	self.Loaded = true
 	self.Maid = Loader.Maid()
 	self.Maid:GiveTask(self.onLoad)
 
@@ -57,7 +52,6 @@ local function init(self)
 
 		self.Data = profile.Data
 		self.Profile = profile
-		self.onLoad:Fire()
 	end
 end
 
@@ -66,8 +60,6 @@ function Player.new(plr: Player)
 	local player_class = setmetatable({}, Player)
 	player_class.Player = plr
 	player_class.Attributes = {}
-	player_class.Loaded = false
-	player_class.onLoad = Signal.new()
 	init(player_class)
 	return player_class
 end

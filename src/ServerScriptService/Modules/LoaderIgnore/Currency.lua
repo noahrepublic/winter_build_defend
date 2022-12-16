@@ -9,7 +9,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 --> Loader, Modules, and Util
 local loader = require(ReplicatedStorage.Loader)
 local PlayerRegistry
-print(PlayerRegistry)
 
 --> Module Definition
 local Currency = {}
@@ -21,6 +20,17 @@ local SETTINGS = {
 --> Variables
 
 --> Private Functions
+
+local function onPlayer(player)
+	if not PlayerRegistry then
+		PlayerRegistry = loader.Get("PlayerRegistry")
+	end
+
+	local playerData = PlayerRegistry.AddPlayer(player).Data
+
+	player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
+	player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
+end
 
 --> Module Functions
 
@@ -56,14 +66,13 @@ end
 
 --> Loader Methods
 
-function Currency.Start()
-	PlayerRegistry = loader.Get("PlayerRegistry")
-	Players.PlayerAdded:Connect(function(player)
-		local playerClass = PlayerRegistry.AddPlayer(player)
-		local playerData = playerClass.Data
-		player:SetAttribute(SETTINGS.MAIN_CURRENCY, playerData[SETTINGS.MAIN_CURRENCY])
-		player:SetAttribute(SETTINGS.SECONDARY_CURRENCY, playerData[SETTINGS.SECONDARY_CURRENCY])
-	end)
+Players.PlayerAdded:Connect(onPlayer)
+Players.PlayerRemoving:Connect(function(player)
+	PlayerRegistry.RemovePlayer(player)
+end)
+
+for _, player in pairs(Players:GetPlayers()) do
+	onPlayer(player)
 end
 
 return Currency
