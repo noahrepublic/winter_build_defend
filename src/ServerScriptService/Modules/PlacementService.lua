@@ -8,10 +8,8 @@ local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --> Loader, Modules, and Util
---local loader = require(ReplicatedStorage.Loader)
-local BuildableSettings = ReplicatedStorage.Shared.BuildableSettings -- Contains different attributes for each buildable (cost, health)
+local loader = require(ReplicatedStorage.Loader)
 local CurrencyService = require(script.Parent.LoaderIgnore.Currency)
-
 --> Module Definition
 local module = {}
 local SETTINGS = {
@@ -22,6 +20,7 @@ local SETTINGS = {
 --> Variables
 
 local Remotes = ReplicatedStorage.Remotes
+local BuildablesData = loader.Shared.BuildablesData -- Contains different attributes for each buildable (cost, health)
 local BuildablesFolder = ReplicatedStorage.Resources.Buildables
 
 local PlacementEvent = Remotes.Placement
@@ -51,8 +50,8 @@ local function buildRequest(player: Player, buildData: table)
 	end
 
 	if
-		not BuildableSettings:FindFirstChild(buildType)
-		or not CurrencyService.Purchase(player, require(BuildableSettings:FindFirstChild(buildType)).Cost, "Coins")
+		not BuildablesData:FindFirstChild(buildType)
+		or not CurrencyService.Purchase(player, require(BuildablesData:FindFirstChild(buildType)).Cost, "Coins")
 	then
 		warn("Not enough coins")
 		PlacementEvent:FireClient(player, "Not enough coins")
@@ -64,6 +63,7 @@ local function buildRequest(player: Player, buildData: table)
 		local newBuild = build:Clone()
 		newBuild.CFrame = location * CFrame.Angles(0, rotation, 0)
 		newBuild.Anchored = true
+		newBuild:SetAttribute("Health", require(BuildablesData:FindFirstChild(buildType)).Health)
 		newBuild.Parent = base.Builds
 		CollectionService:AddTag(newBuild, "Buildable")
 	end
