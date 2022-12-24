@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX9E0CC73275F9483F93A15F5E5C60EDCE">
+	<Item class="Model" referent="RBX327DC798C7EB4DEEBC4EA0DE0BC429E4">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<token name="LevelOfDetail">0</token>
@@ -29,27 +29,12 @@
 			<token name="ModelStreamingMode">0</token>
 			<string name="Name">BasePlot</string>
 			<bool name="NeedsPivotMigration">false</bool>
-			<Ref name="PrimaryPart">RBX9418C822EBE74F13BE0CD87B6D58681D</Ref>
+			<Ref name="PrimaryPart">RBX9422137A59D04829BEEB5638A5308A88</Ref>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
-			<OptionalCoordinateFrame name="WorldPivotData">
-				<CFrame>
-					<X>466.500031</X>
-					<Y>11</Y>
-					<Z>250.000031</Z>
-					<R00>1</R00>
-					<R01>0</R01>
-					<R02>1.50995803e-07</R02>
-					<R10>0</R10>
-					<R11>1</R11>
-					<R12>0</R12>
-					<R20>-1.50995803e-07</R20>
-					<R21>0</R21>
-					<R22>1</R22>
-				</CFrame>
-			</OptionalCoordinateFrame>
+			<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 		</Properties>
-		<Item class="Part" referent="RBX9418C822EBE74F13BE0CD87B6D58681D">
+		<Item class="Part" referent="RBX9422137A59D04829BEEB5638A5308A88">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -143,7 +128,7 @@
 					<Z>200</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Texture" referent="RBX7A60BA17F99240628AB1A483AFDEA47A">
+			<Item class="Texture" referent="RBXDB88CF3D2F004323B1CE11481DC10A72">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Color3 name="Color3">
@@ -165,14 +150,14 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBXA9956F73B6EE4D0F90CDD6C643FCE128">
+		<Item class="Folder" referent="RBX4FA749EB046942C0A562AD7DD9B50E9A">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Igloos</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Model" referent="RBX31C8942679784AC6A29F9085CBFC363D">
+			<Item class="Model" referent="RBX2EF55AA7C351477CA149F9E084C5EF71">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -199,27 +184,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBX84A4C7B473BD4226923EA8EF9DCDBEB4</Ref>
+					<Ref name="PrimaryPart">RBXE29576F3C78C4AF1A90C7249F956782D</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>598.296204</X>
-							<Y>11.000001</Y>
-							<Z>346.402954</Z>
-							<R00>0.601948261</R00>
-							<R01>0</R01>
-							<R02>-0.798535049</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0.798535049</R20>
-							<R21>0</R21>
-							<R22>0.601948261</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBX2D0092C17CC9430A8DD60F76630699D1">
+				<Item class="Model" referent="RBX6843D6D49E6846BB934C003AD870A738">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -249,27 +219,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>599.452881</X>
-								<Y>11</Y>
-								<Z>347.937378</Z>
-								<R00>0.601948261</R00>
-								<R01>0</R01>
-								<R02>-0.798535049</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>0.798535049</R20>
-								<R21>0</R21>
-								<R22>0.601948261</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBXA589BF8FE70340DBB3AC4F74DBD4552D">
+					<Item class="UnionOperation" referent="RBX4D132843EBB0410C95659D795C9FB5FF">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -311,9 +266,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -327,7 +282,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -376,10 +331,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBXE7ED6584EC984A9D8D7F7695E1BE1670">
+					<Item class="UnionOperation" referent="RBXA705AF743C8E47DFAE79F68E1E5D3B8F">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -421,9 +376,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -437,7 +392,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -487,7 +442,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBX0FF37593448F4A178E8FCE7FFF4F8E34">
+				<Item class="Part" referent="RBX0D9F2F07BEBC4543A17CE4BB47C0F30B">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -582,7 +537,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBX84A4C7B473BD4226923EA8EF9DCDBEB4">
+				<Item class="Part" referent="RBXE29576F3C78C4AF1A90C7249F956782D">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -678,7 +633,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Model" referent="RBX21B841C5C77F41E7BBB809DF000A9408">
+			<Item class="Model" referent="RBX6C46F784216C400C85BE49631291FA60">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -705,27 +660,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBX68F227C352A745FF8BC72BEA40DF3819</Ref>
+					<Ref name="PrimaryPart">RBX18625EE0DE204BDC9C356342994A3662</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>330.562286</X>
-							<Y>11.000001</Y>
-							<Z>351.305481</Z>
-							<R00>-0.531128168</R00>
-							<R01>0</R01>
-							<R02>-0.84729147</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0.84729147</R20>
-							<R21>0</R21>
-							<R22>-0.531128168</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBXDAB7E9716AAA449CB01217520ECE9B9E">
+				<Item class="Model" referent="RBX08BAE7700D004C58BE9368C54D5511B8">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -755,27 +695,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>329.541687</X>
-								<Y>11</Y>
-								<Z>352.933624</Z>
-								<R00>-0.531128168</R00>
-								<R01>0</R01>
-								<R02>-0.84729147</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>0.84729147</R20>
-								<R21>0</R21>
-								<R22>-0.531128168</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBX0CDE811A2C6E4CBB8683EE80A5423C43">
+					<Item class="UnionOperation" referent="RBX97E3BCDE838240A89FFFD6C03B4CD140">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -817,9 +742,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -833,7 +758,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -882,10 +807,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBXFCE33FB214FB4DF0807A6F1D65F123DE">
+					<Item class="UnionOperation" referent="RBXC9014BECF700447D814F5933BF604809">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -927,9 +852,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -943,7 +868,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -993,7 +918,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBXD068E63B66B4477C84E3FBB01F7E68BA">
+				<Item class="Part" referent="RBXE1735E5D165B42268A28E2B736FCACF4">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1088,7 +1013,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBX68F227C352A745FF8BC72BEA40DF3819">
+				<Item class="Part" referent="RBX18625EE0DE204BDC9C356342994A3662">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1184,7 +1109,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Model" referent="RBXD477A767E4DF4104B210059692239CA0">
+			<Item class="Model" referent="RBX77E49FB26E444D188BC35559B16FFE09">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -1211,27 +1136,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBXDD4C9875BFA1498A848FC54B7D0EA10B</Ref>
+					<Ref name="PrimaryPart">RBX9F3933BCB1EA4ED19FC289C51E2F8218</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>637.5</X>
-							<Y>11.000001</Y>
-							<Z>249.000015</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>1.50995803e-07</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>-1.50995803e-07</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBXA741A52988BF4418AB91C6AD88C8BDBC">
+				<Item class="Model" referent="RBXB5952F1592C54794B6EF9B4F3E57E81B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -1261,27 +1171,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>639.421631</X>
-								<Y>11</Y>
-								<Z>249.000015</Z>
-								<R00>1</R00>
-								<R01>0</R01>
-								<R02>1.50995803e-07</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>-1.50995803e-07</R20>
-								<R21>0</R21>
-								<R22>1</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBX4B3D29B28C63490D98D8B20A7FA8508A">
+					<Item class="UnionOperation" referent="RBX336E7B48497D4E15851D01383700DFBE">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -1323,9 +1218,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -1339,7 +1234,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -1388,10 +1283,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBXC727577D168341D686975E5674E9CCB3">
+					<Item class="UnionOperation" referent="RBXE5A337EE68D6430EB8B8648AF6293808">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -1433,9 +1328,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -1449,7 +1344,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -1499,7 +1394,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBX2ECE15D2574548C595BF070DBED9B311">
+				<Item class="Part" referent="RBXC4B285733CC4461790CC32A883B84F79">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1594,7 +1489,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBXDD4C9875BFA1498A848FC54B7D0EA10B">
+				<Item class="Part" referent="RBX9F3933BCB1EA4ED19FC289C51E2F8218">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -1690,7 +1585,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Model" referent="RBX5ED6A138AB574A1C92B1AA09D0896F96">
+			<Item class="Model" referent="RBXDE9C0A65491A435499BE17993590C307">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -1717,27 +1612,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBX2C37989A74D74342B2F0C6B82C3AC3BE</Ref>
+					<Ref name="PrimaryPart">RBXC279942836294DF182E34107F850D211</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>295.500061</X>
-							<Y>11.000001</Y>
-							<Z>227.000092</Z>
-							<R00>-1</R00>
-							<R01>0</R01>
-							<R02>-1.50995803e-07</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>1.50995803e-07</R20>
-							<R21>0</R21>
-							<R22>-1</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBXABC6C36E94CE40F6856E6091F7E1EE14">
+				<Item class="Model" referent="RBX9B1045E757384254AD8054B704267AB4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -1767,27 +1647,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>293.578461</X>
-								<Y>11</Y>
-								<Z>227.000092</Z>
-								<R00>-1</R00>
-								<R01>0</R01>
-								<R02>-1.50995803e-07</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>1.50995803e-07</R20>
-								<R21>0</R21>
-								<R22>-1</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBX68874368A3B54344A3F3E339DC352F8B">
+					<Item class="UnionOperation" referent="RBX5493F67195134290BB0E8F0017C01AD9">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -1829,9 +1694,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -1845,7 +1710,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -1894,10 +1759,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBX847C10FC1ECB42D583385EAB8C31296C">
+					<Item class="UnionOperation" referent="RBX13EF6E14D5444113822B182C713F0BA3">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -1939,9 +1804,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -1955,7 +1820,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -2005,7 +1870,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBX228CE5BBE6514107BED94102DA99B8E4">
+				<Item class="Part" referent="RBX2078A5D1876C4EABBA7AD4163CF020ED">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2100,7 +1965,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBX2C37989A74D74342B2F0C6B82C3AC3BE">
+				<Item class="Part" referent="RBXC279942836294DF182E34107F850D211">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2196,7 +2061,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Model" referent="RBXB77832FA15A44AB0A95EFD82926F6840">
+			<Item class="Model" referent="RBXA712660C86D74C2ABB3FD674F957CD45">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -2223,27 +2088,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBXB3182C431CEC4A708EC0FFECD09D8C88</Ref>
+					<Ref name="PrimaryPart">RBX756A78B65BD04BC4AFAF5DD7C21CA6FD</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>429.500061</X>
-							<Y>11.000001</Y>
-							<Z>369.999908</Z>
-							<R00>1.50995803e-07</R00>
-							<R01>0</R01>
-							<R02>-1</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>1</R20>
-							<R21>0</R21>
-							<R22>1.50995803e-07</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBXFB43B9337C1C4486AEF692C2895F6503">
+				<Item class="Model" referent="RBX0066041D176249B89C7E770E85D76ADC">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -2273,27 +2123,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>429.500122</X>
-								<Y>11</Y>
-								<Z>371.921509</Z>
-								<R00>1.50995803e-07</R00>
-								<R01>0</R01>
-								<R02>-1</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>1</R20>
-								<R21>0</R21>
-								<R22>1.50995803e-07</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBX1075D6ED8AE64A6E8F45308FB5934D3C">
+					<Item class="UnionOperation" referent="RBXD27E9204EE17433E9AE7BF8FD3F068B8">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -2335,9 +2170,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -2351,7 +2186,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -2400,10 +2235,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBXB2E9E0351C2645A4A72B56ABB2CB4E2F">
+					<Item class="UnionOperation" referent="RBX9C0848065E004511935BCE97A3D831CF">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -2445,9 +2280,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -2461,7 +2296,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -2511,7 +2346,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBX2C11023CBB374EBEA1EC09C4EEF856CB">
+				<Item class="Part" referent="RBXC05CD13E9A5E447CA89A8A3EDA19C82B">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2606,7 +2441,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBXB3182C431CEC4A708EC0FFECD09D8C88">
+				<Item class="Part" referent="RBX756A78B65BD04BC4AFAF5DD7C21CA6FD">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -2702,7 +2537,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Model" referent="RBX19A452D069FC4B9FB53B8F9D51F2A2E3">
+			<Item class="Model" referent="RBXAF71445F50A742ACA9F77808D4EDB03F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -2729,27 +2564,12 @@
 					<token name="ModelStreamingMode">0</token>
 					<string name="Name">Igloo</string>
 					<bool name="NeedsPivotMigration">false</bool>
-					<Ref name="PrimaryPart">RBXE3F73AA8A7CA44D0B3A4A0B17DBBACA4</Ref>
+					<Ref name="PrimaryPart">RBX26480A916F4746C5864910D88DACCE97</Ref>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<OptionalCoordinateFrame name="WorldPivotData">
-						<CFrame>
-							<X>518.500061</X>
-							<Y>11.000001</Y>
-							<Z>370.000031</Z>
-							<R00>1.50995803e-07</R00>
-							<R01>0</R01>
-							<R02>-1</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>1</R20>
-							<R21>0</R21>
-							<R22>1.50995803e-07</R22>
-						</CFrame>
-					</OptionalCoordinateFrame>
+					<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 				</Properties>
-				<Item class="Model" referent="RBX213DFC79C2D7486692257C70336E604F">
+				<Item class="Model" referent="RBX9F029D7060B34567B876D27474897CA8">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<token name="LevelOfDetail">0</token>
@@ -2779,27 +2599,12 @@
 						<Ref name="PrimaryPart">null</Ref>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
-						<OptionalCoordinateFrame name="WorldPivotData">
-							<CFrame>
-								<X>518.500122</X>
-								<Y>11</Y>
-								<Z>371.921631</Z>
-								<R00>1.50995803e-07</R00>
-								<R01>0</R01>
-								<R02>-1</R02>
-								<R10>0</R10>
-								<R11>1</R11>
-								<R12>0</R12>
-								<R20>1</R20>
-								<R21>0</R21>
-								<R22>1.50995803e-07</R22>
-							</CFrame>
-						</OptionalCoordinateFrame>
+						<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
 					</Properties>
-					<Item class="UnionOperation" referent="RBX2F45EC45C70D44C59423245A04AE9F16">
+					<Item class="UnionOperation" referent="RBX9EE3821FB12A462DBA0BD1F74E3B4654">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018068</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -2841,9 +2646,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>5.65682983</X>
-								<Y>9.04518223</Y>
-								<Z>14.0000153</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -2857,7 +2662,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Door</string>
-							<SharedString name="PhysicalConfigData">ehLZThWXHRsNj9ROOCHcTg==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -2906,10 +2711,10 @@
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="UnionOperation" referent="RBXE8B781579AE9415ABCAD0212CBBE1289">
+					<Item class="UnionOperation" referent="RBXBDA59E6776034DAD83BEF3D5002841ED">
 						<Properties>
 							<bool name="Anchored">true</bool>
-							<Content name="AssetId"><url>https://www.roblox.com//asset/?id=11782018105</url></Content>
+							<Content name="AssetId"><null></null></Content>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<float name="BackParamA">-0.5</float>
 							<float name="BackParamB">0.5</float>
@@ -2951,9 +2756,9 @@
 							<token name="FrontSurface">0</token>
 							<token name="FrontSurfaceInput">0</token>
 							<Vector3 name="InitialSize">
-								<X>36.0000153</X>
-								<Y>19.0000038</Y>
-								<Z>33.9999924</Z>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
 							</Vector3>
 							<BinaryString name="LODData"></BinaryString>
 							<float name="LeftParamA">-0.5</float>
@@ -2967,7 +2772,7 @@
 							<BinaryString name="MeshData"></BinaryString>
 							<SharedString name="MeshData2">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<string name="Name">Igloo</string>
-							<SharedString name="PhysicalConfigData">Nsqf2gGIV+IZisiUqKXMLw==</SharedString>
+							<SharedString name="PhysicalConfigData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 							<BinaryString name="PhysicsData"></BinaryString>
 							<CoordinateFrame name="PivotOffset">
 								<X>0</X>
@@ -3017,7 +2822,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBXB8805B5852F94B33B74EE3D4E6123307">
+				<Item class="Part" referent="RBX2953A2A24E564EFBA71565427C103900">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3112,7 +2917,7 @@
 						</Vector3>
 					</Properties>
 				</Item>
-				<Item class="Part" referent="RBXE3F73AA8A7CA44D0B3A4A0B17DBBACA4">
+				<Item class="Part" referent="RBX26480A916F4746C5864910D88DACCE97">
 					<Properties>
 						<bool name="Anchored">true</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3209,7 +3014,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX0ED994C256134C63BCC914F142018041">
+		<Item class="Part" referent="RBX10562D01E34E4ED9BC63627D73E3C667">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -3303,7 +3108,7 @@
 					<Z>1</Z>
 				</Vector3>
 			</Properties>
-			<Item class="BillboardGui" referent="RBX039900C0BCDE459EA9D6403F8B9C2975">
+			<Item class="BillboardGui" referent="RBX2BCF43B3D901437F971DC0B18437D5C2">
 				<Properties>
 					<bool name="Active">true</bool>
 					<Ref name="Adornee">null</Ref>
@@ -3361,7 +3166,7 @@
 					<BinaryString name="Tags"></BinaryString>
 					<token name="ZIndexBehavior">1</token>
 				</Properties>
-				<Item class="ImageLabel" referent="RBX312CCA6AB02C4B86A143C16C177F4929">
+				<Item class="ImageLabel" referent="RBXF11765CD083E47B6BBC7F37C921009E7">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -3457,7 +3262,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item class="SpawnLocation" referent="RBX47495E47912D461F854D39AD49480F45">
+		<Item class="SpawnLocation" referent="RBX8FA0FEA757884612AE59C84139DBA3E5">
 			<Properties>
 				<bool name="AllowTeamChangeOnTouch">false</bool>
 				<bool name="Anchored">true</bool>
@@ -3557,384 +3362,16 @@
 				</Vector3>
 			</Properties>
 		</Item>
+		<Item class="Folder" referent="RBX8745D89BF54041EEB7391AF9B272CF43">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Enemies</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
 	</Item>
 	<SharedStrings>
-		<SharedString md5="Nsqf2gGIV+IZisiUqKXMLw==">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
-AAAAAQAAAAEAAAAHAAAAAwAAAAEAAAADAAAAAgAAAAEAAAAGAAAADwAAAAEAAAAPAAAACAAA
-AAEAAAAIAAAABwAAAAMAAAAHAAAACAAAAAMAAAAIAAAACQAAAAMAAAAJAAAABAAAAAQAAAAJ
-AAAACgAAAAUAAAALAAAACQAAAAUAAAAJAAAADAAAAAUAAAAMAAAADQAAAAUAAAANAAAADgAA
-AAUAAAAOAAAABgAAAAYAAAAOAAAADAAAAAYAAAAMAAAADwAAAAgAAAAPAAAACQAAAAkAAAAQ
-AAAACgAAAAkAAAAPAAAADAAAAAkAAAALAAAAEAAAAAwAAAAOAAAADQAAABAAAAAAAAAAAAAA
-AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgD8kAAAABAAAAAwAEME8DJnAfe1RwQwAEMHd
-gUjAU4hNwQwAEMEA84i96ewzwT4AR8EA84i9RiTZwEZiXME8DJnAzizuwAUAkME8DJnAzizu
-wGn8j8FEM23AeOjfwAdOG8EA84i9JEYrwVXQQcEA84i9wiTywGn8j8E0n1vARiTZwAmnXcE0
-n1vARiTZwGn8j8E8DJnARiTZwDwAAAAAAAAAAQAAAAIAAAAAAAAAAgAAAAMAAAAAAAAAAwAA
-AAQAAAAAAAAABAAAAAsAAAAAAAAACwAAAAUAAAAAAAAABQAAAAEAAAABAAAABQAAAAYAAAAB
-AAAABgAAAAIAAAACAAAABgAAAAcAAAACAAAABwAAAAgAAAACAAAACAAAAAMAAAADAAAACAAA
-AAkAAAADAAAACQAAAAsAAAADAAAACwAAAAoAAAADAAAACgAAAAQAAAAEAAAACgAAAAsAAAAF
-AAAACwAAAAkAAAAFAAAACQAAAAYAAAAGAAAACQAAAAcAAAAHAAAACQAAAAgAAAAQAAAAAAAA
-AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/IQAAAAQAAAAw+UbBAPOIvWYZ2cDr
-/o/BqbIJwLuwucDr/o/Bcox1v7Trh8Dr/o/BoG1Yvi5dHMDr/o/BAPOIvZKOrL+PY1/BAPOI
-vZKOrL8drF3BNJ9bwGYZ2cDr/o/BNJ9bwGYZ2cDr/o/BAPOIvQCYrbrr/o/BPAyZwACYrbrr
-/o/BPAyZwGYZ2cA2AAAAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAA
-AAQAAAAIAAAAAAAAAAgAAAAFAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAKAAAAAAAAAAoAAAAH
-AAAAAAAAAAcAAAABAAAAAQAAAAcAAAAKAAAAAQAAAAoAAAAJAAAAAQAAAAkAAAAIAAAAAQAA
-AAgAAAAEAAAAAQAAAAQAAAADAAAAAQAAAAMAAAACAAAABQAAAAgAAAAJAAAABQAAAAkAAAAG
-AAAABgAAAAkAAAAKAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACA
-Py0AAAAEAAAAePtGwQDziL1uJNlAzf2PwUQzbcC33r9Azf2PwTwMmcBGJ85AKf5cwd2BSMBu
-JNlAlL9gwTwMmcBuJNlAa39hwQDziL1wNLI+CACQwQDziL1wNLI+CACQwaBtWL75v7g/zf2P
-wXKMdb/R9U9Azf2PwamyCcCwrJlAzf2PwTwMmcAAAIA2p0dhwTwMmcAIktZAzf2PwWIkT78A
-AIA2CACQwQDziL0AAIA2yQVjwTwMmcBGJ85ATgAAAAAAAAABAAAAAgAAAAAAAAACAAAAAwAA
-AAAAAAADAAAABAAAAAAAAAAEAAAABQAAAAAAAAAFAAAADQAAAAAAAAANAAAABgAAAAAAAAAG
-AAAABwAAAAAAAAAHAAAACAAAAAAAAAAIAAAACQAAAAAAAAAJAAAAAQAAAAEAAAAJAAAABwAA
-AAEAAAAHAAAAAgAAAAIAAAAEAAAAAwAAAAIAAAAHAAAACgAAAAIAAAAKAAAADgAAAAIAAAAO
-AAAACwAAAAIAAAALAAAABAAAAAQAAAALAAAABQAAAAUAAAAKAAAADAAAAAUAAAAMAAAADQAA
-AAUAAAALAAAADgAAAAUAAAAOAAAACgAAAAYAAAANAAAABwAAAAcAAAANAAAACgAAAAcAAAAJ
-AAAACAAAAAoAAAANAAAADAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA
-AAAAgD8qAAAABAAAAAgAkMH2ThHBTi/ZQAgAkMGwfbrATi/ZQEZcYsEe/hfBTi/ZQAPuV8Ee
-/hfBk9QFQUBVLcEe/hfBcFI9QQwAEMEe/hfBgNFTQQwAEMGC/u/AaiRZQQgAkMHqi+7APAfg
-QAwAEMHME5nAjOpRQQJDLMHME5nA9Tw8QZ1ERsHME5nAFV8aQdGaVsHME5nAtBAFQU29YMHM
-E5nATi/ZQAwAEMEe/hfBTi/ZQEgAAAAAAAAAAQAAAAwAAAAAAAAADAAAAA0AAAAAAAAADQAA
-AAIAAAAAAAAAAgAAAAMAAAAAAAAAAwAAAAQAAAAAAAAABAAAAAUAAAAAAAAABQAAAAYAAAAA
-AAAABgAAAAcAAAAAAAAABwAAAAEAAAABAAAABwAAAAYAAAABAAAABgAAAAgAAAABAAAACAAA
-AAkAAAABAAAACQAAAAoAAAABAAAACgAAAAsAAAABAAAACwAAAAwAAAACAAAADQAAAAUAAAAC
-AAAABQAAAAQAAAACAAAABAAAAAMAAAAFAAAADQAAAAgAAAAFAAAACAAAAAYAAAAIAAAADQAA
-AAwAAAAIAAAADAAAAAsAAAAIAAAACwAAAAoAAAAIAAAACgAAAAkAAAAQAAAAAAAAAAAAAAAA
-AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/JwAAAAQAAAAMABDBgv7vwJMhWcEMABDB4vyl
-wDL9UsEMABDBHv4XwWLRU8EIAJDBXVoWwcDU98AIAJDB6ovuwHEEAMEIAJDB4mawwMDU98AM
-ABDBzBOZwG/qUcEMABDBHv4Xwbkp2cA6/o/BHv4Xwfp99sA6/o/BHv4Xwbkp2cA6/o/BzBOZ
-wKQu7sA6/o/BzBOZwLkp2cCtXlzBzBOZwKQu7sBCAAAAAAAAAAEAAAAGAAAAAAAAAAYAAAAH
-AAAAAAAAAAcAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAA
-AAUAAAABAAAAAQAAAAUAAAAGAAAAAgAAAAcAAAAJAAAAAgAAAAkAAAAIAAAAAgAAAAgAAAAD
-AAAAAwAAAAUAAAAEAAAAAwAAAAgAAAAJAAAAAwAAAAkAAAALAAAAAwAAAAsAAAAFAAAABQAA
-AAoAAAAGAAAABQAAAAsAAAAKAAAABgAAAAwAAAAHAAAABgAAAAoAAAALAAAABgAAAAsAAAAM
-AAAABwAAAAwAAAALAAAABwAAAAsAAAAJAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA
-AAAAAAAAAAAAAACAPxgAAAAEAAAAaPyPwR7+F8FmGdnAaPyPwcwTmcBmGdnADAAQwR7+F8Fm
-GdnAaPyPwR7+F8EAmK26BACQwQ9a08AAmK26BACQwcwTmcAAmK26aPyPwcwTmcAxfj7ADAAQ
-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
-AAYAAAAAAAAABgAAAAcAAAAAAAAABwAAAAgAAAAAAAAACAAAAAEAAAABAAAACQAAABIAAAAB
-AAAAEgAAABwAAAABAAAAHAAAAB8AAAABAAAAHwAAAB4AAAABAAAAHgAAABMAAAABAAAAEwAA
-AAoAAAABAAAACgAAAAIAAAABAAAACAAAAAkAAAACAAAACgAAAAsAAAACAAAACwAAAAMAAAAD
-AAAADAAAAAQAAAADAAAACwAAAAwAAAAEAAAADQAAAA4AAAAEAAAADgAAAAUAAAAEAAAADAAA
-AA0AAAAFAAAADgAAAAYAAAAGAAAADgAAAAcAAAAHAAAADwAAABAAAAAHAAAAEAAAAAgAAAAH
-AAAADgAAAA8AAAAIAAAAEAAAABoAAAAIAAAAGgAAACYAAAAIAAAAJgAAACoAAAAIAAAAKgAA
-ACgAAAAIAAAAKAAAACkAAAAIAAAAKQAAACcAAAAIAAAAJwAAABsAAAAIAAAAGwAAABEAAAAI
-AAAAEQAAAAkAAAAJAAAAEQAAABIAAAAKAAAAEwAAAAsAAAALAAAAFAAAAAwAAAALAAAAEwAA
-ABQAAAAMAAAAFAAAABUAAAAMAAAAFQAAAA0AAAANAAAAFQAAABYAAAANAAAAFgAAABcAAAAN
-AAAAFwAAABgAAAANAAAAGAAAAA4AAAAOAAAAGAAAABkAAAAOAAAAGQAAAA8AAAAPAAAAGQAA
-ABAAAAAQAAAAGQAAABoAAAARAAAAGwAAABIAAAASAAAAGwAAAB0AAAASAAAAHQAAABwAAAAT
-AAAAHgAAABQAAAAUAAAAHgAAAB8AAAAUAAAAHwAAACAAAAAUAAAAIAAAABUAAAAVAAAAIQAA
-ACIAAAAVAAAAIgAAABYAAAAVAAAAIAAAACMAAAAVAAAAIwAAACQAAAAVAAAAJAAAACEAAAAW
-AAAAJQAAABcAAAAWAAAAIgAAACUAAAAXAAAAJQAAABgAAAAYAAAAJQAAABkAAAAZAAAAJgAA
-ABoAAAAZAAAAJQAAACYAAAAbAAAAJwAAACQAAAAbAAAAJAAAAB0AAAAcAAAAHQAAACAAAAAc
-AAAAIAAAAB8AAAAdAAAAJAAAACMAAAAdAAAAIwAAACAAAAAhAAAAKAAAACUAAAAhAAAAJQAA
-ACIAAAAhAAAAJAAAACkAAAAhAAAAKQAAACgAAAAkAAAAJwAAACkAAAAlAAAAKAAAACoAAAAl
-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
-UUBB/P8PQVmQSMCs52RB+U8TQVmQSMCOhmNBqspJQVmQSMBCvzlBLfo6QQAAAAC48ipB0mBn
-QQAAAADo49RA1mZhQQAAAACHpfFAnAAAAAAAAAABAAAABwAAAAAAAAAHAAAACAAAAAAAAAAI
-AAAAAgAAAAAAAAACAAAACQAAAAAAAAAJAAAAEgAAAAAAAAASAAAAFAAAAAAAAAAUAAAACgAA
-AAAAAAAKAAAAAwAAAAAAAAADAAAACwAAAAAAAAALAAAAFgAAAAAAAAAWAAAADAAAAAAAAAAM
-AAAABAAAAAAAAAAEAAAAAQAAAAEAAAAFAAAABgAAAAEAAAAGAAAABwAAAAEAAAAEAAAADQAA
-AAEAAAANAAAAGQAAAAEAAAAZAAAAGwAAAAEAAAAbAAAAGgAAAAEAAAAaAAAADgAAAAEAAAAO
-AAAABQAAAAIAAAAIAAAACQAAAAMAAAAKAAAACwAAAAQAAAAMAAAADQAAAAUAAAAOAAAABgAA
-AAYAAAAPAAAAEAAAAAYAAAAQAAAAEQAAAAYAAAARAAAACAAAAAYAAAAIAAAABwAAAAYAAAAO
-AAAADwAAAAgAAAARAAAACQAAAAkAAAARAAAAEAAAAAkAAAAQAAAAEgAAAAoAAAATAAAACwAA
-AAoAAAAUAAAAFQAAAAoAAAAVAAAAEwAAAAsAAAATAAAAFgAAAAwAAAAWAAAAFwAAAAwAAAAX
-AAAADQAAAA0AAAAXAAAAGAAAAA0AAAAYAAAAGQAAAA4AAAAaAAAADwAAAA8AAAAaAAAAGwAA
-AA8AAAAbAAAAGQAAAA8AAAAZAAAAGAAAAA8AAAAYAAAAFQAAAA8AAAAVAAAAEAAAABAAAAAV
-AAAAEgAAABIAAAAVAAAAFAAAABMAAAAVAAAAGAAAABMAAAAYAAAAFwAAABMAAAAXAAAAFgAA
-ABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgD9UAAAABAAAAPj/D0EC
-ABjB+01qwfj/D0EC/u/ASONuwUPSFUECABjBZuVnwfj/D0ECABjBAACANvj/D0FZkEjAJu1k
-wcD2F0EC/u/AOZdrwS9cUEEC/u/AtFRAwZVbTUECABjBfko9wRzfjUECABjBAACANurhgEEA
-AAAAAACANvj/D0EAAAAA5uFLwfj/D0FCawnAVtFdwZBTE0FZkEjA9otjwQnHSUFZkEjAlrw5
-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
-ABEAAAAQAAAAEQAAABQAAAATAAAA</SharedString>
-		<SharedString md5="ehLZThWXHRsNj9ROOCHcTg==">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
-AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAPzMAAAAEAAAAvwQ1QPjfxb4AAAAAvwQ1
-QBG5kMAAAAAAvwQ1QAAAAABaLR7Arfs0QAAAAAAAAAAAvwQ1wBG5kMAAAAAAvwQ1QBG5kMA6
-R9XAvwQ1QAAAAADMk7PAvwQ1wAAAAAAAAAAAvwQ1wBG5kMA6R9XAvwQ1QL5MicASWdjArfs0
-QAAAAAAxjs/AvwQ1QOD+Kb8SWdjAvwQ1wAAAAAAxjs/AvwQ1wL5MicASWdjAvwQ1QJqMHsAQ
-AODAvwQ1wOD+Kb8SWdjAvwQ1wJqMHsAQAODAWgAAAAAAAAABAAAABQAAAAAAAAAFAAAACQAA
-AAAAAAAJAAAADgAAAAAAAAAOAAAACwAAAAAAAAALAAAABgAAAAAAAAAGAAAAAgAAAAAAAAAC
-AAAAAwAAAAAAAAADAAAABwAAAAAAAAAHAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAACAAA
-AAEAAAAIAAAABQAAAAIAAAAGAAAACgAAAAIAAAAKAAAADAAAAAIAAAAMAAAABwAAAAIAAAAH
-AAAAAwAAAAQAAAAHAAAADAAAAAQAAAAMAAAADwAAAAQAAAAPAAAAEAAAAAQAAAAQAAAADQAA
-AAQAAAANAAAACAAAAAUAAAAIAAAADQAAAAUAAAANAAAACQAAAAYAAAALAAAACgAAAAkAAAAN
-AAAAEAAAAAkAAAAQAAAADgAAAAoAAAALAAAADwAAAAoAAAAPAAAADAAAAAsAAAAOAAAAEAAA
-AAsAAAAQAAAADwAAAA==</SharedString>
 		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
 	</SharedStrings>
 </roblox>
