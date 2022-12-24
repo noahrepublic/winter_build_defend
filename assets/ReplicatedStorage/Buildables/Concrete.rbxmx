@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Part" referent="RBX7831FC17150C4EC3B39A2A5004A70953">
+	<Item class="Part" referent="RBX9B5FD976C1CA4607B714A99A76B9E570">
 		<Properties>
 			<bool name="Anchored">false</bool>
 			<BinaryString name="AttributesSerialize"></BinaryString>
@@ -96,5 +96,15 @@
 				<Z>4</Z>
 			</Vector3>
 		</Properties>
+		<Item class="PathfindingModifier" referent="RBX3E3B264D42674070A2F53C6BB784BD01">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Label">Concrete</string>
+				<string name="Name">PathMod</string>
+				<bool name="PassThrough">true</bool>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
 	</Item>
 </roblox>
