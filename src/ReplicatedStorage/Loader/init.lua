@@ -29,6 +29,7 @@ local SETTINGS = {
 local loader = {
 	log = {},
 	test = {},
+	Shared = nil,
 }
 
 loader.__index = loader
@@ -130,7 +131,7 @@ function loader.InitModules(root)
 
 		backend.Init(i)
 
-		loader.log.Print(script, "Loaded module for first time : " .. i.Name)
+		--loader.log.Print(script, "Loaded module for first time : " .. i.Name)
 	end
 end
 
