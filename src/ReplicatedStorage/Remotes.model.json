@@ -4,6 +4,10 @@
         {
             "Name": "Placement",
             "ClassName": "RemoteEvent"
+        },
+        {
+            "Name": "Enemy",
+            "ClassName": "RemoteEvent"
         }
     ]
 }
