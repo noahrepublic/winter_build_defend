@@ -53,12 +53,10 @@ function Buildable:Clean()
 	print("Cleaning Buildable")
 	self.Maid:DoCleaning()
 
-	local health = 0
-	if self.Instance:GetAttribute("Health") then
-		local oldHealth = self.Instance:GetAttribute("Health")
-		self.Instance:SetAttribute("Health", oldHealth - 1)
-		health = oldHealth - 1
-	end
+	self.Instance:GetAttribute("Health")
+	local oldHealth = self.Instance:GetAttribute("Health")
+	self.Instance:SetAttribute("Health", oldHealth - 1)
+	local health = oldHealth - 1
 
 	if health <= 0 then
 		self.Instance:Destroy()
